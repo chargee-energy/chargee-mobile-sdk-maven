@@ -1,0 +1,340 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "utils-bluetooth",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.juul.kable",
+          "module": "kable-core",
+          "version": {
+            "requires": "0.43.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-bluetooth-metadata.jar",
+          "url": "utils-bluetooth-0.0.20.jar",
+          "size": 5012,
+          "sha512": "3e4380a544aaaa75bb920a8ec1e53ac8fb324819244c551de5a324aa7b8e7679419d6e1963da4e9ca4d8b20504d11f5a4b2782adceadd9518bb4cc74f45c38ed",
+          "sha256": "93218e88cfaa7ab1dad2acb29b0b529fbc7f78bb4d7aaedaa422c0499621d13a",
+          "sha1": "ad6f0540b260c1d1b914484d5b7551a1413a6e65",
+          "md5": "9d0e4efe63e55008e75380fad8f66d15"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "utils-bluetooth-kotlin-sources.jar",
+          "url": "utils-bluetooth-0.0.20-sources.jar",
+          "size": 6671,
+          "sha512": "89fa8541ee89cf59703508b81eea9e6f65704ad25768f7c4d2442b2063e7d102a9752a6cb348852d51e2c0ffe0d9697a122cc532f83be40ee4b6fa590987bc11",
+          "sha256": "3a9d00a613acc2c7a98f952c93327d9faee39c3c2fcdb71ce76ce17c522e5cce",
+          "sha1": "a8a612cad70b4899dbfe85b7629660ce5433b4a8",
+          "md5": "7725d4b2022887477147fa0e595993ce"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-android/0.0.20/utils-bluetooth-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-android/0.0.20/utils-bluetooth-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-android/0.0.20/utils-bluetooth-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iosarm64/0.0.20/utils-bluetooth-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iosarm64/0.0.20/utils-bluetooth-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iosarm64/0.0.20/utils-bluetooth-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iossimulatorarm64/0.0.20/utils-bluetooth-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iossimulatorarm64/0.0.20/utils-bluetooth-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iossimulatorarm64/0.0.20/utils-bluetooth-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iosx64/0.0.20/utils-bluetooth-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iosx64/0.0.20/utils-bluetooth-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-iosx64/0.0.20/utils-bluetooth-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-jvm/0.0.20/utils-bluetooth-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-jvm/0.0.20/utils-bluetooth-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-bluetooth-jvm/0.0.20/utils-bluetooth-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-bluetooth-jvm",
+        "version": "0.0.20"
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-local-device/0.0.20/data-local-device-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "data-local-device",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-local-device-jvm.jar",
+          "url": "data-local-device-jvm-0.0.20.jar",
+          "size": 105525,
+          "sha512": "174989c89b513aa394ad1fb7d6b818cc9b27eb955cd74c091ca690eeefd3a0295ecf19484c145dc59548a70966e6f6b120518a6b22cfed7638729a0f4d2bbeea",
+          "sha256": "f87990f6d2b6a86cea06e5002932e0f328898a728579ec7dafd2e13e6c1d7509",
+          "sha1": "c341a5fb056104b66ae4fd1da1f2e171bc891650",
+          "md5": "8c0640a323315bbc51d406d67ef57243"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-local-device-jvm.jar",
+          "url": "data-local-device-jvm-0.0.20.jar",
+          "size": 105525,
+          "sha512": "174989c89b513aa394ad1fb7d6b818cc9b27eb955cd74c091ca690eeefd3a0295ecf19484c145dc59548a70966e6f6b120518a6b22cfed7638729a0f4d2bbeea",
+          "sha256": "f87990f6d2b6a86cea06e5002932e0f328898a728579ec7dafd2e13e6c1d7509",
+          "sha1": "c341a5fb056104b66ae4fd1da1f2e171bc891650",
+          "md5": "8c0640a323315bbc51d406d67ef57243"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "data-local-device-jvm-sources.jar",
+          "url": "data-local-device-jvm-0.0.20-sources.jar",
+          "size": 14717,
+          "sha512": "1e94b529a3944ee188ab4e3a7a6059f281de2e41708b3f6564db073fc6550f9a3d843895503f330ec48ebc06384fe55ac29dc6c65ac563a098851bef7d5cc3bd",
+          "sha256": "1c25edf4ccea109c2ac76ecd0b38144f43115d92300954bc95fdd92d603bf36c",
+          "sha1": "d34e2205b6e4e5b7e7911f0ec63b87a2691a7563",
+          "md5": "256975646dc407f92a86ad14b6740e64"
+        }
+      ]
+    }
+  ]
+}

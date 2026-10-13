@@ -1,0 +1,347 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "discovery-mdns",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-mdns-metadata.jar",
+          "url": "discovery-mdns-0.0.20.jar",
+          "size": 2520,
+          "sha512": "4da4c2c92be25a727cb4fcb94ee92ba3dc981349dd9fac7d00edca76af0f8ec0cdc522c20da9a1952f26903ad355722d5ace667d5ffcc3a69db1e0d55dd85512",
+          "sha256": "dc04075bccd37e0531145c4513aac191ccdfda9521e0b541678054cc9b0b3c8a",
+          "sha1": "2dd48014f50339398bee2a33ef0bc66db58fa49f",
+          "md5": "1aff0ef9b1e602012e332b4b760503e9"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "discovery-mdns-kotlin-sources.jar",
+          "url": "discovery-mdns-0.0.20-sources.jar",
+          "size": 4092,
+          "sha512": "3947c89644c0ad54b680d91556932afeea7974458be330b7b3378b995a24857ffc35f8e079fdd6d321616cb6b9031306d0272919e3ec15124265ef2f926c50e6",
+          "sha256": "89f37a16ce8f2483ce4d78495b3da2b9f48981b8c23d8c92e3fb5febbc31fb69",
+          "sha1": "85ae3e94e15496c3f6e02514dd3fd1ad59f630ad",
+          "md5": "3cee282669076575380f4a351de7d4bb"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-android/0.0.20/discovery-mdns-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-android/0.0.20/discovery-mdns-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-android/0.0.20/discovery-mdns-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iosarm64/0.0.20/discovery-mdns-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iosarm64/0.0.20/discovery-mdns-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iosarm64/0.0.20/discovery-mdns-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iossimulatorarm64/0.0.20/discovery-mdns-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iossimulatorarm64/0.0.20/discovery-mdns-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iossimulatorarm64/0.0.20/discovery-mdns-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iosx64/0.0.20/discovery-mdns-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iosx64/0.0.20/discovery-mdns-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-iosx64/0.0.20/discovery-mdns-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-jvm/0.0.20/discovery-mdns-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-jvm/0.0.20/discovery-mdns-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-mdns-jvm/0.0.20/discovery-mdns-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-mdns-jvm",
+        "version": "0.0.20"
+      }
+    }
+  ]
+}

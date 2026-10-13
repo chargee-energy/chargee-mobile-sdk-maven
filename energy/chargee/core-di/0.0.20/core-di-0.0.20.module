@@ -1,0 +1,276 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "core-di",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-metadata.jar",
+          "url": "core-di-0.0.20.jar",
+          "size": 6994,
+          "sha512": "59df570d7c5ba2260e4a50a231dfdd2aeb009b32a22bf04925aa72667b394435c1de0cea89a20a38ce71c321baf2ab95955238809e5f007e52d5c160f35d8f31",
+          "sha256": "a6b625c7fa2f3a38bfb58908a526095ddf6107b611eeff6a3e8de5b60d5f6c50",
+          "sha1": "f5a1a6c883957ee726d99c7a9be34d9ad622cebe",
+          "md5": "d55d62ea3960c47d0faa9c8705980c84"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-di-kotlin-sources.jar",
+          "url": "core-di-0.0.20-sources.jar",
+          "size": 7241,
+          "sha512": "9d0ca3de90d335fba1d94d69acb4b0b6812e067973da1c0d02eb362f093d0d56aa8fefb87d9a9151a90424dea75d1a577a0cf2d6b1d7574ad736b5d28137a986",
+          "sha256": "a0272f07ec066937392755dfe1c7509589bd2ef55d040f6d4b5842d2144d09fb",
+          "sha1": "52773268c76f98fd8e13443e6f6daedc7a793e96",
+          "md5": "91f3ec4b5fb7ea008b79503f9a6ee3f8"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iosarm64/0.0.20/core-di-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iosarm64/0.0.20/core-di-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iosarm64/0.0.20/core-di-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iossimulatorarm64/0.0.20/core-di-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iossimulatorarm64/0.0.20/core-di-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iossimulatorarm64/0.0.20/core-di-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iosx64/0.0.20/core-di-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iosx64/0.0.20/core-di-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-di-iosx64/0.0.20/core-di-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-di-jvm/0.0.20/core-di-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-di-jvm/0.0.20/core-di-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-di-jvm/0.0.20/core-di-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "core-di-jvm",
+        "version": "0.0.20"
+      }
+    }
+  ]
+}

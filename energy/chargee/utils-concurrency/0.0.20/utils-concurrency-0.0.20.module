@@ -1,0 +1,283 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "utils-concurrency",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-concurrency-metadata.jar",
+          "url": "utils-concurrency-0.0.20.jar",
+          "size": 2522,
+          "sha512": "06535b6a602a091bdb7cba7836fc720614c3e5e58831902ee5cb5e191800072ea450b45bf72cab1b01bffe2691d7bc196ea266e33735046ce2ec09330ee78f33",
+          "sha256": "369fdd4226e064ec6316c377f1d70ead9ae5af90f105e17051225d07b210e8db",
+          "sha1": "e3dafd93157358ab2b1bd7d5e9e7c3f177e0cb56",
+          "md5": "013b8a9406a7e31cfe28b1b0f4e90612"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "utils-concurrency-kotlin-sources.jar",
+          "url": "utils-concurrency-0.0.20-sources.jar",
+          "size": 1814,
+          "sha512": "f46d5de761d64e839adfd37d16e9d258b494923afa1b5a7ed627f7beb153fa0b51e02ea55cea469247303010c9b68dc245286efd944850d11c81d3a509dd3de6",
+          "sha256": "de925c1fd0e37112e9869ce226874f995d0c3290a8e8cd72565d663082d80a0a",
+          "sha1": "7f14f9c77747b0cf744124f323f61d70a8cb7270",
+          "md5": "0eb4411446f1d6ec406cd02a24f5e99b"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iosarm64/0.0.20/utils-concurrency-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iosarm64/0.0.20/utils-concurrency-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iosarm64/0.0.20/utils-concurrency-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iossimulatorarm64/0.0.20/utils-concurrency-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iossimulatorarm64/0.0.20/utils-concurrency-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iossimulatorarm64/0.0.20/utils-concurrency-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iosx64/0.0.20/utils-concurrency-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iosx64/0.0.20/utils-concurrency-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-iosx64/0.0.20/utils-concurrency-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-jvm/0.0.20/utils-concurrency-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-jvm/0.0.20/utils-concurrency-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-concurrency-jvm/0.0.20/utils-concurrency-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "utils-concurrency-jvm",
+        "version": "0.0.20"
+      }
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "discovery-udp-broadcast",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-udp-broadcast-metadata.jar",
+          "url": "discovery-udp-broadcast-0.0.20.jar",
+          "size": 3928,
+          "sha512": "a973a723f44b586bd6b1b1e97ead5d4a9093514a4a6d66166ce395d6879b3f9b8c955b34b0cce536915d6692a2b4a7f9f1c1df54c505a0c0481c066a5bf58ba5",
+          "sha256": "05387e6b4c19804f8d7fc7bdc726c237fc958ec8ca346d76f4bc1ec451ed8689",
+          "sha1": "33878f18e1405b16092eeaf4b4fe9f739768ccb2",
+          "md5": "d196a30b2ca4d5df0698fbb102ab6f3c"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "discovery-udp-broadcast-kotlin-sources.jar",
+          "url": "discovery-udp-broadcast-0.0.20-sources.jar",
+          "size": 4292,
+          "sha512": "93ec2d7b617dc8c8f7e348a5de54ff22ad633204c28adf0544a0736e6cac4ca8f712ec533d86b20d9079dde2e5af893892abe51ad607fd7390f21a31c745e22d",
+          "sha256": "7627e29d73ab07285eab3b9508d7bedb0581a6ea34127c9aeb4f339fe3e9d51c",
+          "sha1": "c2a4d6efee8a5ce74cfbd85f48f404c0eba68895",
+          "md5": "54fc11cc627ec979181b261559811e1d"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-android/0.0.20/discovery-udp-broadcast-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-android/0.0.20/discovery-udp-broadcast-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-android/0.0.20/discovery-udp-broadcast-android-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-android",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iosarm64/0.0.20/discovery-udp-broadcast-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iosarm64/0.0.20/discovery-udp-broadcast-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iosarm64/0.0.20/discovery-udp-broadcast-iosarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iosarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iossimulatorarm64/0.0.20/discovery-udp-broadcast-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iossimulatorarm64/0.0.20/discovery-udp-broadcast-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iossimulatorarm64/0.0.20/discovery-udp-broadcast-iossimulatorarm64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iossimulatorarm64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iosx64/0.0.20/discovery-udp-broadcast-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iosx64/0.0.20/discovery-udp-broadcast-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-iosx64/0.0.20/discovery-udp-broadcast-iosx64-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-iosx64",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-jvm/0.0.20/discovery-udp-broadcast-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-jvm/0.0.20/discovery-udp-broadcast-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-jvm",
+        "version": "0.0.20"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-udp-broadcast-jvm/0.0.20/discovery-udp-broadcast-jvm-0.0.20.module",
+        "group": "energy.chargee",
+        "module": "discovery-udp-broadcast-jvm",
+        "version": "0.0.20"
+      }
+    }
+  ]
+}

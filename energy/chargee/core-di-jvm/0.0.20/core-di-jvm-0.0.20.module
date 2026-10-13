@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-di/0.0.20/core-di-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "core-di",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-jvm.jar",
+          "url": "core-di-jvm-0.0.20.jar",
+          "size": 19334,
+          "sha512": "e98bb035ff2f68300f0cb7d4f773896952e3afdeb6c865711cdf1fe54dd299a533e5cd9c10ac1754b4d621453df2582167ae2ca72d2daa8523982b92c5ae5634",
+          "sha256": "1d1b992b90e8622303331feb9d742139eb3d3237f9f4e8e02f26b01862d9218c",
+          "sha1": "e3a12e5ee24c12ea3fe76acc29e84017baec709f",
+          "md5": "d3a637fca4651a27d9a232798248a085"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-di-jvm.jar",
+          "url": "core-di-jvm-0.0.20.jar",
+          "size": 19334,
+          "sha512": "e98bb035ff2f68300f0cb7d4f773896952e3afdeb6c865711cdf1fe54dd299a533e5cd9c10ac1754b4d621453df2582167ae2ca72d2daa8523982b92c5ae5634",
+          "sha256": "1d1b992b90e8622303331feb9d742139eb3d3237f9f4e8e02f26b01862d9218c",
+          "sha1": "e3a12e5ee24c12ea3fe76acc29e84017baec709f",
+          "md5": "d3a637fca4651a27d9a232798248a085"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-di-jvm-sources.jar",
+          "url": "core-di-jvm-0.0.20-sources.jar",
+          "size": 7241,
+          "sha512": "9d0ca3de90d335fba1d94d69acb4b0b6812e067973da1c0d02eb362f093d0d56aa8fefb87d9a9151a90424dea75d1a577a0cf2d6b1d7574ad736b5d28137a986",
+          "sha256": "a0272f07ec066937392755dfe1c7509589bd2ef55d040f6d4b5842d2144d09fb",
+          "sha1": "52773268c76f98fd8e13443e6f6daedc7a793e96",
+          "md5": "91f3ec4b5fb7ea008b79503f9a6ee3f8"
+        }
+      ]
+    }
+  ]
+}

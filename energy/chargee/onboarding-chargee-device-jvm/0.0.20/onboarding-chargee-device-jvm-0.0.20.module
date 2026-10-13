@@ -1,0 +1,207 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-chargee-device/0.0.20/onboarding-chargee-device-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "onboarding-chargee-device",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-chargee-device-jvm.jar",
+          "url": "onboarding-chargee-device-jvm-0.0.20.jar",
+          "size": 142501,
+          "sha512": "e2820f07ced899e1c2be16bcab5828c2db550feccddf6d5d876210257adcf8e82d7521ab8bc55199a0f90198be375f69c8cc947f58f609e11bea79e5f9cfd447",
+          "sha256": "317c65a902bdc0b0f84c609b6f0cd6f4a253a9e54f36c97757ce752006491ef1",
+          "sha1": "72897f3acd4ecf2609cd4db6ae0c72f28944482d",
+          "md5": "6426326731c85a1523ec40a46b7d4dfc"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-feature-flags",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-sparky",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-flint",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-smart-meter",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-chargee-device-jvm.jar",
+          "url": "onboarding-chargee-device-jvm-0.0.20.jar",
+          "size": 142501,
+          "sha512": "e2820f07ced899e1c2be16bcab5828c2db550feccddf6d5d876210257adcf8e82d7521ab8bc55199a0f90198be375f69c8cc947f58f609e11bea79e5f9cfd447",
+          "sha256": "317c65a902bdc0b0f84c609b6f0cd6f4a253a9e54f36c97757ce752006491ef1",
+          "sha1": "72897f3acd4ecf2609cd4db6ae0c72f28944482d",
+          "md5": "6426326731c85a1523ec40a46b7d4dfc"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-chargee-device-jvm-sources.jar",
+          "url": "onboarding-chargee-device-jvm-0.0.20-sources.jar",
+          "size": 23015,
+          "sha512": "42e79b5898fd6407212b14698c5bfb150260843039a8b6ca8c249b4671f35d9e29ec653f36c0b5b9ca52604428dcf5e339ba986b72807a710d340654bea3f151",
+          "sha256": "4337dbce387e47b6340acb4d604d13a1631e5c01280a4a1c02dff1ec60f35db3",
+          "sha1": "f1338af225a1360b1721dfb9980e3cc319992a99",
+          "md5": "9bafb16ca97b378ae829a66d95599364"
+        }
+      ]
+    }
+  ]
+}

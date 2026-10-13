@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-network/0.0.20/core-network-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "core-network",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "utils-result",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-network.aar",
+          "url": "core-network-android-0.0.20.aar",
+          "size": 52424,
+          "sha512": "a6f84b58747d4872572aa7c11e7f8f44267b5f77bedaf05e3a17717e1019b883ee877c787a4238a75e5a2b09d0471d8046af90f847d9616b2131a66bed5eae52",
+          "sha256": "98b30e7838a94146133199b5a24a6b44dcb91def6f1254d7b2aac3accf096fda",
+          "sha1": "2e11ae3a8f81488ffed283570ff82cc45ab5354c",
+          "md5": "ca6b52c81ad203e19289e8461633040b"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "utils-result",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-network.aar",
+          "url": "core-network-android-0.0.20.aar",
+          "size": 52424,
+          "sha512": "a6f84b58747d4872572aa7c11e7f8f44267b5f77bedaf05e3a17717e1019b883ee877c787a4238a75e5a2b09d0471d8046af90f847d9616b2131a66bed5eae52",
+          "sha256": "98b30e7838a94146133199b5a24a6b44dcb91def6f1254d7b2aac3accf096fda",
+          "sha1": "2e11ae3a8f81488ffed283570ff82cc45ab5354c",
+          "md5": "ca6b52c81ad203e19289e8461633040b"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-network-android-sources.jar",
+          "url": "core-network-android-0.0.20-sources.jar",
+          "size": 8061,
+          "sha512": "63b5ceadab14d892bef830dfc75b0ac868be1a5e73f8278085b986eab103ce8070d36e052d197d9ca236a619e7a875209f3a494926d61cb79ae38662687f8ddb",
+          "sha256": "9f55c361ffbe7a04c524e35a892aa0d76b9f54e8e685358dc060a2bbb446db88",
+          "sha1": "986c91ac67e764e3662a93c0a40004b5e37c5176",
+          "md5": "0d28f96e6cad83e87a78ebecc6532f8c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-solar-edge-wire/0.0.20/onboarding-solar-edge-wire-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "onboarding-solar-edge-wire",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "6.4.7"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "6.4.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-solar-edge-wire-jvm.jar",
+          "url": "onboarding-solar-edge-wire-jvm-0.0.20.jar",
+          "size": 1245255,
+          "sha512": "5ab4bcad7a7cf778e96295a9cf5e1e1c2438d8261f12a3eeee2dad4236ffc97c935654439c3e40e4bb499e63423a7eba73577cd9e91e409f89ccfaccb881c032",
+          "sha256": "24421f0be53093fc44b4a29c822b26bfc1dbfed091e62e88cddfd493fd38a67e",
+          "sha1": "6370695c09f1d6b6b1171a04fee638697efd014b",
+          "md5": "169f6b4c70950cc2a7a4fefc00e168e7"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "6.4.7"
+          }
+        },
+        {
+          "group": "com.squareup.wire",
+          "module": "wire-runtime",
+          "version": {
+            "requires": "6.4.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-solar-edge-wire-jvm.jar",
+          "url": "onboarding-solar-edge-wire-jvm-0.0.20.jar",
+          "size": 1245255,
+          "sha512": "5ab4bcad7a7cf778e96295a9cf5e1e1c2438d8261f12a3eeee2dad4236ffc97c935654439c3e40e4bb499e63423a7eba73577cd9e91e409f89ccfaccb881c032",
+          "sha256": "24421f0be53093fc44b4a29c822b26bfc1dbfed091e62e88cddfd493fd38a67e",
+          "sha1": "6370695c09f1d6b6b1171a04fee638697efd014b",
+          "md5": "169f6b4c70950cc2a7a4fefc00e168e7"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-solar-edge-wire-jvm-sources.jar",
+          "url": "onboarding-solar-edge-wire-jvm-0.0.20-sources.jar",
+          "size": 210836,
+          "sha512": "2f2a22262545a25128a104156e1f5a0d5232293824e49ca6688b55866de6a2d9d26753a878aa399603ffccd43804134b5d7fb38e85702ea39810ea2254f6c997",
+          "sha256": "b4952e345c47c3b4b71e6a1d2b43d40da5fb0ca7ca613f7ffbe129caddde4138",
+          "sha1": "11a21a3e75ebc3fb92efd4e23734fa0ba5e6a4fb",
+          "md5": "4bf77400932ce4058ce4370b8c783d3b"
+        }
+      ]
+    }
+  ]
+}

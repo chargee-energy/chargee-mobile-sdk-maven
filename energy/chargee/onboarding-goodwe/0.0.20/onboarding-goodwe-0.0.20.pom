@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>energy.chargee</groupId>
+  <artifactId>onboarding-goodwe</artifactId>
+  <version>0.0.20</version>
+  <name>ChargeeOnboardingGoodwe</name>
+  <description>Goodwe inverter onboarding module for the Chargee SDK</description>
+  <url>https://github.com/chargee-energy/chargee-mobile-sdk</url>
+  <inceptionYear>2026</inceptionYear>
+  <organization>
+    <name>Chargee B.V.</name>
+    <url>https://chargee.energy</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Chargee SDK License</name>
+      <url>https://chargee.energy/sdk-license/v1</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Erwin Knoop</name>
+      <email>erwin@chargee.energy</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/chargee-energy/chargee-mobile-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>energy.chargee</groupId>
+      <artifactId>onboarding-local-device</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.3.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-serialization-core</artifactId>
+      <version>1.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>energy.chargee</groupId>
+      <artifactId>core-di</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>energy.chargee</groupId>
+      <artifactId>data-chargee-device</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>energy.chargee</groupId>
+      <artifactId>data-local-device</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>energy.chargee</groupId>
+      <artifactId>discovery-core</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>energy.chargee</groupId>
+      <artifactId>discovery-udp-broadcast</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>energy.chargee</groupId>
+      <artifactId>utils-bluetooth</artifactId>
+      <version>0.0.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core</artifactId>
+      <version>1.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>co.touchlab.skie</groupId>
+      <artifactId>configuration-annotations</artifactId>
+      <version>0.10.14</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

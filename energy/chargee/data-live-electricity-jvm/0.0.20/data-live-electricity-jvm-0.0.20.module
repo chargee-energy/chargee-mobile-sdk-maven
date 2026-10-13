@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-live-electricity/0.0.20/data-live-electricity-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "data-live-electricity",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-live-electricity-jvm.jar",
+          "url": "data-live-electricity-jvm-0.0.20.jar",
+          "size": 89276,
+          "sha512": "de0bd2d7076edd94e8c77887029b5d705336fa9cddc70c808501d5554572bd4b2a045cb2761e79d79e6969fd37ee8d8a0c274bad7c29b5592541e7d21bd4bf47",
+          "sha256": "b0944d145d9f585ef7de42c4b741da62dd7f188155542a22ed63894897c8da58",
+          "sha1": "05353b4a72111e44c3b3cbea6fab6294ea0c96e1",
+          "md5": "1ce3a962635b5a0be2e7607322db37e8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-annotations",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-live-electricity-jvm.jar",
+          "url": "data-live-electricity-jvm-0.0.20.jar",
+          "size": 89276,
+          "sha512": "de0bd2d7076edd94e8c77887029b5d705336fa9cddc70c808501d5554572bd4b2a045cb2761e79d79e6969fd37ee8d8a0c274bad7c29b5592541e7d21bd4bf47",
+          "sha256": "b0944d145d9f585ef7de42c4b741da62dd7f188155542a22ed63894897c8da58",
+          "sha1": "05353b4a72111e44c3b3cbea6fab6294ea0c96e1",
+          "md5": "1ce3a962635b5a0be2e7607322db37e8"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "data-live-electricity-jvm-sources.jar",
+          "url": "data-live-electricity-jvm-0.0.20-sources.jar",
+          "size": 9897,
+          "sha512": "878b15080e2808d818745073a0134084bec4b70aa9eea8cb7cf620b7be7f45f9572984e51cf62f70128a72a154bd41044efdc5454886cb2dd2b4fc075a8e4d5d",
+          "sha256": "71aaceb9c0117b9338fff1a0330bb3dd255ac103d72000113603eccf75cbb2a2",
+          "sha1": "8c7ac0e90df56462c0d71de72cdda256f6cb6df6",
+          "md5": "5d699935b0ba99e6f3b92cd13a2446e4"
+        }
+      ]
+    }
+  ]
+}

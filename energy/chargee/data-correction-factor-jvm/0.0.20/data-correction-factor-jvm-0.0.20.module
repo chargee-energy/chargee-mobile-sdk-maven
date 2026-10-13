@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-correction-factor/0.0.20/data-correction-factor-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "data-correction-factor",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-correction-factor-jvm.jar",
+          "url": "data-correction-factor-jvm-0.0.20.jar",
+          "size": 46852,
+          "sha512": "a43ed96321de243dad7190589bd6f356958b26f40c0a2b4cd6c587ac260b2e6a52434813ef03bd7e9d9711c22b6d2046af936e939b9f187ec6a0e5054824df21",
+          "sha256": "67ff5241cc3c99aca4736752682f157614b76ff7b2d98bd2ad9e8e567991ddf3",
+          "sha1": "682daeb33ef5865ff8e1467f82b8e09f80056c18",
+          "md5": "62afa0dfb9a14985e3c6da987962cd94"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-annotations",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-correction-factor-jvm.jar",
+          "url": "data-correction-factor-jvm-0.0.20.jar",
+          "size": 46852,
+          "sha512": "a43ed96321de243dad7190589bd6f356958b26f40c0a2b4cd6c587ac260b2e6a52434813ef03bd7e9d9711c22b6d2046af936e939b9f187ec6a0e5054824df21",
+          "sha256": "67ff5241cc3c99aca4736752682f157614b76ff7b2d98bd2ad9e8e567991ddf3",
+          "sha1": "682daeb33ef5865ff8e1467f82b8e09f80056c18",
+          "md5": "62afa0dfb9a14985e3c6da987962cd94"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "data-correction-factor-jvm-sources.jar",
+          "url": "data-correction-factor-jvm-0.0.20-sources.jar",
+          "size": 6705,
+          "sha512": "8753c0b897f9b21402695d2be1ee55178c4cc2bff111e4d9a8d695b8e5593c219af6b7e7ba4dfa1638e18051dc74fc966858550bb1164463a4f331a368600eb5",
+          "sha256": "767d2cd81b66300f1fe5bc0c4425abee97b15aed7d5ba4516b01c8a78d4378a0",
+          "sha1": "c5a5a2e3227e41f2ad66d72fec1259ab6ec93162",
+          "md5": "9b673c3fea44e8e4f1f6ba2d965c8288"
+        }
+      ]
+    }
+  ]
+}

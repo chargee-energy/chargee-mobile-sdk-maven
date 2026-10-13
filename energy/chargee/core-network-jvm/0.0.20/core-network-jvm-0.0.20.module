@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-network/0.0.20/core-network-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "core-network",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "utils-result",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-network-jvm.jar",
+          "url": "core-network-jvm-0.0.20.jar",
+          "size": 58904,
+          "sha512": "ea2787e82214b0f8430195b3bf2c6d54cc8141d74d51fdf9bc328a78f6ed308a2f4b7b8cd26547c8d03877906ad5b99b07c93fa74a8eb3a7c426228821fdce11",
+          "sha256": "3c2a1dfb460f98a1a2320b5658599f42185216513de50f7c62d0f6033c30ed92",
+          "sha1": "9ba4cb497e0219fa13af59abe7ed8ed2c9ee8e71",
+          "md5": "d2383d0580794a6014e2ab1a9ba50d2f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "utils-result",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-network-jvm.jar",
+          "url": "core-network-jvm-0.0.20.jar",
+          "size": 58904,
+          "sha512": "ea2787e82214b0f8430195b3bf2c6d54cc8141d74d51fdf9bc328a78f6ed308a2f4b7b8cd26547c8d03877906ad5b99b07c93fa74a8eb3a7c426228821fdce11",
+          "sha256": "3c2a1dfb460f98a1a2320b5658599f42185216513de50f7c62d0f6033c30ed92",
+          "sha1": "9ba4cb497e0219fa13af59abe7ed8ed2c9ee8e71",
+          "md5": "d2383d0580794a6014e2ab1a9ba50d2f"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-network-jvm-sources.jar",
+          "url": "core-network-jvm-0.0.20-sources.jar",
+          "size": 8061,
+          "sha512": "63b5ceadab14d892bef830dfc75b0ac868be1a5e73f8278085b986eab103ce8070d36e052d197d9ca236a619e7a875209f3a494926d61cb79ae38662687f8ddb",
+          "sha256": "9f55c361ffbe7a04c524e35a892aa0d76b9f54e8e685358dc060a2bbb446db88",
+          "sha1": "986c91ac67e764e3662a93c0a40004b5e37c5176",
+          "md5": "0d28f96e6cad83e87a78ebecc6532f8c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../utils-result/0.0.20/utils-result-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "utils-result",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-result-iosSimulatorArm64Main.klib",
+          "url": "utils-result-iossimulatorarm64-0.0.20.klib",
+          "size": 13760,
+          "sha512": "a469b31733c7b7a9b7836470210ced678c8fa94e42263db7a5ea8cbda723fd96e66f5345788bf20355fd855a81fbe484ddf190fad93d438749bb333356a868e0",
+          "sha256": "46891185e2c03a27a08c42a5e54c54f821963cc958bcfa3024bd0d29a652de19",
+          "sha1": "bf5b6ec22736a8247e1969fab2ebd0ac07c423ec",
+          "md5": "470e7030715e8ef1f7c75e8225284af2"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "utils-result-iossimulatorarm64-sources.jar",
+          "url": "utils-result-iossimulatorarm64-0.0.20-sources.jar",
+          "size": 4520,
+          "sha512": "3f8e08087b7c60518fe7784abf83a02d8fdd1144bc63518287243d539c6fc2034f083d3667668833003bbb798acba0c8f181b8521d64663e0b6ca7dfcb1e86dc",
+          "sha256": "4a24876710fbb5f542279a3abaad9141198dfbdfa296d519bb2007dd29b178ab",
+          "sha1": "0dee8216566732d7c00355ba39efa9fa1f56e97e",
+          "md5": "2b597e1bd2cee7c8ce355df515cd768c"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-result-iossimulatorarm64-metadata.jar",
+          "url": "utils-result-iossimulatorarm64-0.0.20-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

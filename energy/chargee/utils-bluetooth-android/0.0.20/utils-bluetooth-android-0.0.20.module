@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../utils-bluetooth/0.0.20/utils-bluetooth-0.0.20.module",
+    "group": "energy.chargee",
+    "module": "utils-bluetooth",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.juul.kable",
+          "module": "kable-core",
+          "version": {
+            "requires": "0.43.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-bluetooth.aar",
+          "url": "utils-bluetooth-android-0.0.20.aar",
+          "size": 27043,
+          "sha512": "64668badc56d1e4831622ea26da7f0bfd65740022393210304c7665ac981c2cd6eaea65050e159a05be22628f160f95cfb537794b404a66646132fac550e0972",
+          "sha256": "962169f2881f5823b2e57f278b6835acb290033dfcd266832768485976deb652",
+          "sha1": "00ffbceed02c0d5f37e7a4bcfdd79f089c5e44a7",
+          "md5": "51db6c3fb50bcdb0a436eafdc7edfe76"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.juul.kable",
+          "module": "kable-core",
+          "version": {
+            "requires": "0.43.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-bluetooth.aar",
+          "url": "utils-bluetooth-android-0.0.20.aar",
+          "size": 27043,
+          "sha512": "64668badc56d1e4831622ea26da7f0bfd65740022393210304c7665ac981c2cd6eaea65050e159a05be22628f160f95cfb537794b404a66646132fac550e0972",
+          "sha256": "962169f2881f5823b2e57f278b6835acb290033dfcd266832768485976deb652",
+          "sha1": "00ffbceed02c0d5f37e7a4bcfdd79f089c5e44a7",
+          "md5": "51db6c3fb50bcdb0a436eafdc7edfe76"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "utils-bluetooth-android-sources.jar",
+          "url": "utils-bluetooth-android-0.0.20-sources.jar",
+          "size": 6796,
+          "sha512": "262e4a4678ca3efecdf10d33c96b3a092d44fcbcbcb1c8e3d81589410fd1a1a7758e24f84d0d5a8c5514a3d9e759e148dd2638c005d86ae34b257000eabf9162",
+          "sha256": "35b0da071f62aa28c2f9acd610c2220e2a8c0f56cdb2c48be7035608b27d28a3",
+          "sha1": "47c5050bba6779bddf909fd1b2883b20952e3cd6",
+          "md5": "54957b6731e9f7a0c7df004ca6d1bb49"
+        }
+      ]
+    }
+  ]
+}
