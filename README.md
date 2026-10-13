@@ -18,7 +18,7 @@ dependencies {
 ```
 
 iOS consumers do not use this repository: the SDK ships to them as a Swift package from
-[`chargee-mobile-sdk-binaries`](https://github.com/chargee-energy/chargee-mobile-sdk-binaries).
+[`chargee-mobile-sdk-ios`](https://github.com/chargee-energy/chargee-mobile-sdk-ios).
 
 ## Rules
 
