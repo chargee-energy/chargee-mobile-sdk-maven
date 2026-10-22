@@ -1,0 +1,340 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "utils-wifi",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-wifi-metadata.jar",
+          "url": "utils-wifi-0.0.21.jar",
+          "size": 4947,
+          "sha512": "89c0a21de05ff47089c6dec9b2c4f8585cbd6b0d31ad6c585f8a1fb3e7dd09356bb6cb6f5bb1a11171c9d8b569c21b0c01613cd2e7e884334a0b995be683aafd",
+          "sha256": "b9a564530386d201b181450e940707d959a277a881a9efaac9ec2148413abeac",
+          "sha1": "d471d96cba25e3627716c76965a97a57ec805663",
+          "md5": "81d2b374f44eb8d6551502a5e6cdf722"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "utils-wifi-kotlin-sources.jar",
+          "url": "utils-wifi-0.0.21-sources.jar",
+          "size": 7431,
+          "sha512": "066040279c2d015e09487624c363ef5c38db45ab35a0478379880896c7a036a2c8d922435450c12e3c86cd32829fe453e7d962a587cfb74a29ea3d6bc5fadb10",
+          "sha256": "b3fd741de39a1c86ba23af18b3f6ad15a418d41f273cfab989ad66960d470e9d",
+          "sha1": "d07d3880d78becd3b733e0c7f29cf406db640806",
+          "md5": "090c0893fb2efc3e4a9c441d8ad4bc6b"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-android/0.0.21/utils-wifi-android-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-android",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-android/0.0.21/utils-wifi-android-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-android",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-android/0.0.21/utils-wifi-android-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-android",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iosarm64/0.0.21/utils-wifi-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iosarm64/0.0.21/utils-wifi-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iosarm64/0.0.21/utils-wifi-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iossimulatorarm64/0.0.21/utils-wifi-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iossimulatorarm64/0.0.21/utils-wifi-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iossimulatorarm64/0.0.21/utils-wifi-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iosx64/0.0.21/utils-wifi-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iosx64/0.0.21/utils-wifi-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-iosx64/0.0.21/utils-wifi-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-jvm/0.0.21/utils-wifi-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-jvm",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-jvm/0.0.21/utils-wifi-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-jvm",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../utils-wifi-jvm/0.0.21/utils-wifi-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "utils-wifi-jvm",
+        "version": "0.0.21"
+      }
+    }
+  ]
+}

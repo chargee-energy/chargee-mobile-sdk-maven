@@ -1,0 +1,186 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-local-device/0.0.21/data-local-device-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "data-local-device",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-local-device-iosSimulatorArm64Main.klib",
+          "url": "data-local-device-iossimulatorarm64-0.0.21.klib",
+          "size": 63651,
+          "sha512": "bb17ba10a25155a51e520b5001844f5e6ef37982750b5c9f8209dedbf329052bfb2e5a54915cfb7cb2c318c3bcf14da1ed469832d2eb0963b7694119054c398c",
+          "sha256": "1d17ba8777d3160fb00b57a66aae004ad012960b835f43b3d89042a67bb694ea",
+          "sha1": "c6d340c9e7fa970954c7dfb876ba74a82e6ed671",
+          "md5": "2397bad636c211ada5d38d34749993c2"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "data-local-device-iossimulatorarm64-sources.jar",
+          "url": "data-local-device-iossimulatorarm64-0.0.21-sources.jar",
+          "size": 14717,
+          "sha512": "1e94b529a3944ee188ab4e3a7a6059f281de2e41708b3f6564db073fc6550f9a3d843895503f330ec48ebc06384fe55ac29dc6c65ac563a098851bef7d5cc3bd",
+          "sha256": "1c25edf4ccea109c2ac76ecd0b38144f43115d92300954bc95fdd92d603bf36c",
+          "sha1": "d34e2205b6e4e5b7e7911f0ec63b87a2691a7563",
+          "md5": "256975646dc407f92a86ad14b6740e64"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-local-device-iossimulatorarm64-metadata.jar",
+          "url": "data-local-device-iossimulatorarm64-0.0.21-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

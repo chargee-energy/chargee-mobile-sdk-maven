@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-device/0.0.21/data-device-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "data-device",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-device-jvm.jar",
+          "url": "data-device-jvm-0.0.21.jar",
+          "size": 34024,
+          "sha512": "b16403cc58311ef791e73dab58093474760e3c050f3506d3aa8e1952607569831a7dd0d458416185041efb37ee20242835628734b8edf3d5fae1fe21c926a028",
+          "sha256": "029fb74dcb18e0e75e4fc73e2fae5ac6d5ae6aea30985d3025f23c61fec9924a",
+          "sha1": "791da4277f8a77e3faf5b871d6d613b618539210",
+          "md5": "3b1deed77186526390733ab964bcfa02"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-annotations",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-device-jvm.jar",
+          "url": "data-device-jvm-0.0.21.jar",
+          "size": 34024,
+          "sha512": "b16403cc58311ef791e73dab58093474760e3c050f3506d3aa8e1952607569831a7dd0d458416185041efb37ee20242835628734b8edf3d5fae1fe21c926a028",
+          "sha256": "029fb74dcb18e0e75e4fc73e2fae5ac6d5ae6aea30985d3025f23c61fec9924a",
+          "sha1": "791da4277f8a77e3faf5b871d6d613b618539210",
+          "md5": "3b1deed77186526390733ab964bcfa02"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "data-device-jvm-sources.jar",
+          "url": "data-device-jvm-0.0.21-sources.jar",
+          "size": 4819,
+          "sha512": "b87c12d58cd7495e8be81eace9f9c1d72a6568e182010fc929c243fc23999affdf6b21ea36a3bb99e435c793db6f4c7ec776a7c73ea7c0c8abe7f34664e41344",
+          "sha256": "8b373880b6c7b4ae5632949612d055191da6b94958712cc855363c62ccd79eaf",
+          "sha1": "12a6e9d390ec548c03dce9bbc2edbee12c252882",
+          "md5": "0bca0b0b0093f811f83bd81a93726f7e"
+        }
+      ]
+    }
+  ]
+}

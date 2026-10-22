@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-device/0.0.21/data-device-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "data-device",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-annotations",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-device-iosX64Main.klib",
+          "url": "data-device-iosx64-0.0.21.klib",
+          "size": 23005,
+          "sha512": "8a955458a86ba8a24e9c647d36f14a92afc304b422d773c9df844d66fd579e631293e3d5c77af629b098c64d9c7e4c68b270f56e25de5d9474d4eac2acbaf4c6",
+          "sha256": "ed174eb0cc9ef9f01bb860d1c40e87cf367d0adbd4580f6564f6caaba8259f6a",
+          "sha1": "2d82744aa57644bca34c20a49eec6ecda64f917d",
+          "md5": "38cd80a23a7b623dcbeacc3b4bef09e1"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "data-device-iosx64-sources.jar",
+          "url": "data-device-iosx64-0.0.21-sources.jar",
+          "size": 4819,
+          "sha512": "b87c12d58cd7495e8be81eace9f9c1d72a6568e182010fc929c243fc23999affdf6b21ea36a3bb99e435c793db6f4c7ec776a7c73ea7c0c8abe7f34664e41344",
+          "sha256": "8b373880b6c7b4ae5632949612d055191da6b94958712cc855363c62ccd79eaf",
+          "sha1": "12a6e9d390ec548c03dce9bbc2edbee12c252882",
+          "md5": "0bca0b0b0093f811f83bd81a93726f7e"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-annotations",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-device-iosx64-metadata.jar",
+          "url": "data-device-iosx64-0.0.21-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

@@ -3,11 +3,12 @@
   <groupId>energy.chargee</groupId>
   <artifactId>utils-date-iosx64</artifactId>
   <versioning>
-    <latest>0.0.20</latest>
-    <release>0.0.20</release>
+    <latest>0.0.21</latest>
+    <release>0.0.21</release>
     <versions>
       <version>0.0.20</version>
+      <version>0.0.21</version>
     </versions>
-    <lastUpdated>20261013115557</lastUpdated>
+    <lastUpdated>20261022090725</lastUpdated>
   </versioning>
 </metadata>

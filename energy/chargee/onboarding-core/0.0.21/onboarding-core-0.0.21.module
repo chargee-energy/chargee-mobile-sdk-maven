@@ -1,0 +1,283 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "onboarding-core",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-core-metadata.jar",
+          "url": "onboarding-core-0.0.21.jar",
+          "size": 16651,
+          "sha512": "8ada3e91100a0e98d88fff10ae5cef57609eb5aa05ba10322d08e37705f6cfba6b38c1244c39eecf828aa5de4ac66fc9ad979992b58cf7bceeffe4665230e939",
+          "sha256": "4a161a95d05c5f3621e6ebd8531d6ff0c4ce79c9e99349ba3c9dbfab8d11ee14",
+          "sha1": "15560605805f39e1d1f218c716d0c3ee26426df1",
+          "md5": "3623cd62192874c21113fcba65683053"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "onboarding-core-kotlin-sources.jar",
+          "url": "onboarding-core-0.0.21-sources.jar",
+          "size": 22110,
+          "sha512": "d0c31270816ab95923dd213cb45fa48be6003833a1f3c8033333603818606ec700228e86ccd94e4bef4b5ac70e479fe611714e7063a7ffb650c60bda74cfa897",
+          "sha256": "f68672470449674a17a9a782d4c817dac7aab4a7f7408279d43fbda7948e205e",
+          "sha1": "2fc26f3e6b6f65f5117ff139f1e83c5328c01e2d",
+          "md5": "c41cf2e5717a3b6466ebd08af4ca29d2"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iosarm64/0.0.21/onboarding-core-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iosarm64/0.0.21/onboarding-core-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iosarm64/0.0.21/onboarding-core-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iossimulatorarm64/0.0.21/onboarding-core-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iossimulatorarm64/0.0.21/onboarding-core-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iossimulatorarm64/0.0.21/onboarding-core-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iosx64/0.0.21/onboarding-core-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iosx64/0.0.21/onboarding-core-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-iosx64/0.0.21/onboarding-core-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-jvm/0.0.21/onboarding-core-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-jvm",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-jvm/0.0.21/onboarding-core-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-jvm",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-core-jvm/0.0.21/onboarding-core-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "onboarding-core-jvm",
+        "version": "0.0.21"
+      }
+    }
+  ]
+}

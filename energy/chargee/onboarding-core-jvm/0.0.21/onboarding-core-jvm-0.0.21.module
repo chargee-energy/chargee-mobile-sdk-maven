@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-core/0.0.21/onboarding-core-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "onboarding-core",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-core-jvm.jar",
+          "url": "onboarding-core-jvm-0.0.21.jar",
+          "size": 128851,
+          "sha512": "9f8f2a1475430eeba80397e0f3e4d500ef905414d5b4104e85b07ccc0d046440afe64d9b8cafc2fcdb68ebd901c2792f6ef9e4297335485be1efbb1ff56df25d",
+          "sha256": "3950e6d08d923af305e0a0c7df5ce3ac34af8403e7a3cfe766da01a03335f77c",
+          "sha1": "cab7002ec47288913566698ed37f122d4f3f3e5c",
+          "md5": "b67b5b30623c6b209a8fa42491ccccad"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-core-jvm.jar",
+          "url": "onboarding-core-jvm-0.0.21.jar",
+          "size": 128851,
+          "sha512": "9f8f2a1475430eeba80397e0f3e4d500ef905414d5b4104e85b07ccc0d046440afe64d9b8cafc2fcdb68ebd901c2792f6ef9e4297335485be1efbb1ff56df25d",
+          "sha256": "3950e6d08d923af305e0a0c7df5ce3ac34af8403e7a3cfe766da01a03335f77c",
+          "sha1": "cab7002ec47288913566698ed37f122d4f3f3e5c",
+          "md5": "b67b5b30623c6b209a8fa42491ccccad"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-core-jvm-sources.jar",
+          "url": "onboarding-core-jvm-0.0.21-sources.jar",
+          "size": 22110,
+          "sha512": "d0c31270816ab95923dd213cb45fa48be6003833a1f3c8033333603818606ec700228e86ccd94e4bef4b5ac70e479fe611714e7063a7ffb650c60bda74cfa897",
+          "sha256": "f68672470449674a17a9a782d4c817dac7aab4a7f7408279d43fbda7948e205e",
+          "sha1": "2fc26f3e6b6f65f5117ff139f1e83c5328c01e2d",
+          "md5": "c41cf2e5717a3b6466ebd08af4ca29d2"
+        }
+      ]
+    }
+  ]
+}

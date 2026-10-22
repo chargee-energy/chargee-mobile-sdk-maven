@@ -1,0 +1,228 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-chargee-device/0.0.21/onboarding-chargee-device-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "onboarding-chargee-device",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-chargee-device.aar",
+          "url": "onboarding-chargee-device-android-0.0.21.aar",
+          "size": 157511,
+          "sha512": "5392dc60bcfbd2269498e5248f9f76dd21a099ced0cad0830ef29f56be2af7347fa961138d9a2f9b54265fa11aa2ea79130fc7a3c7c76c05f00d1d9095531f3f",
+          "sha256": "0a8293b4aa30e30c97c3fb5532e98f0b5be1ee7c5c3c247313f89eda684cfce1",
+          "sha1": "86492b3c35b50bb458e6ffe1a0405920c3ac9114",
+          "md5": "9d51d68ab23492b71153b028fdbf5b24"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "com.github.espressif",
+          "module": "esp-idf-provisioning-android",
+          "version": {
+            "requires": "lib-2.4.4"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-feature-flags",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-sparky",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-flint",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-smart-meter",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-chargee-device.aar",
+          "url": "onboarding-chargee-device-android-0.0.21.aar",
+          "size": 157511,
+          "sha512": "5392dc60bcfbd2269498e5248f9f76dd21a099ced0cad0830ef29f56be2af7347fa961138d9a2f9b54265fa11aa2ea79130fc7a3c7c76c05f00d1d9095531f3f",
+          "sha256": "0a8293b4aa30e30c97c3fb5532e98f0b5be1ee7c5c3c247313f89eda684cfce1",
+          "sha1": "86492b3c35b50bb458e6ffe1a0405920c3ac9114",
+          "md5": "9d51d68ab23492b71153b028fdbf5b24"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-chargee-device-android-sources.jar",
+          "url": "onboarding-chargee-device-android-0.0.21-sources.jar",
+          "size": 28032,
+          "sha512": "d0a2bf50613a2e6f9e758b5997500a76ea44cd908b1564310dbf09f653924cb75d4e6d2a2beba4d647d4227a5412153d93856adbe362389f296d58d9adf2e2ee",
+          "sha256": "26e625def17014f8160fb82c4ed9759074faa56b3420be9e4f81d8626071cc18",
+          "sha1": "834d425eeae0be2a7d6fccfd797ab078fe281e3b",
+          "md5": "8654160be1e3f7e21905b18ed32930c7"
+        }
+      ]
+    }
+  ]
+}

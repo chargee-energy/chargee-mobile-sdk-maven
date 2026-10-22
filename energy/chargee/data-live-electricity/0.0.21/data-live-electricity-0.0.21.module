@@ -1,0 +1,311 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "data-live-electricity",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-annotations",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-live-electricity-metadata.jar",
+          "url": "data-live-electricity-0.0.21.jar",
+          "size": 17393,
+          "sha512": "de283a653f9781ef3e0f64d6f7debba9750243722e70407d21c293a2b78ed433887888db6a5fe0e13193e1606aa35d833ba8581143556f3f1bf1704ed7458141",
+          "sha256": "604086b0d8a66169aab06c76d88fca005270a99c98291f5a461a953f19c3a4fa",
+          "sha1": "0f2d5ace4a8a315a73309f5d21d1b85998bbb469",
+          "md5": "e0ada19b4542e038392798aa5256eec0"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-live-electricity-kotlin-sources.jar",
+          "url": "data-live-electricity-0.0.21-sources.jar",
+          "size": 9897,
+          "sha512": "878b15080e2808d818745073a0134084bec4b70aa9eea8cb7cf620b7be7f45f9572984e51cf62f70128a72a154bd41044efdc5454886cb2dd2b4fc075a8e4d5d",
+          "sha256": "71aaceb9c0117b9338fff1a0330bb3dd255ac103d72000113603eccf75cbb2a2",
+          "sha1": "8c7ac0e90df56462c0d71de72cdda256f6cb6df6",
+          "md5": "5d699935b0ba99e6f3b92cd13a2446e4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iosarm64/0.0.21/data-live-electricity-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iosarm64/0.0.21/data-live-electricity-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iosarm64/0.0.21/data-live-electricity-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iossimulatorarm64/0.0.21/data-live-electricity-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iossimulatorarm64/0.0.21/data-live-electricity-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iossimulatorarm64/0.0.21/data-live-electricity-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iosx64/0.0.21/data-live-electricity-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iosx64/0.0.21/data-live-electricity-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-iosx64/0.0.21/data-live-electricity-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-jvm/0.0.21/data-live-electricity-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-jvm",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-jvm/0.0.21/data-live-electricity-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-jvm",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../data-live-electricity-jvm/0.0.21/data-live-electricity-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-live-electricity-jvm",
+        "version": "0.0.21"
+      }
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "data-flint",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-annotations",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-flint-metadata.jar",
+          "url": "data-flint-0.0.21.jar",
+          "size": 4031,
+          "sha512": "6800b29a2edc169f89016abb37bc54e160713f68b88ae814f3e6c4e0961f72f46de3ba90a855bc9e060d9fc80790a181cc5558cf770de0b37ab21b3b92c13b49",
+          "sha256": "6c75fe6922d9e479071221000e3fe4293f2bd86cc1a96be6fe2fbb2c708de624",
+          "sha1": "4015ef445cdf54e5d88aef264ea848652bd7695c",
+          "md5": "f840a877d12d08a0d14170880a54c51f"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-flint-kotlin-sources.jar",
+          "url": "data-flint-0.0.21-sources.jar",
+          "size": 2568,
+          "sha512": "63dd101dcc512d840c62e20149b84d28d5e8dce64760373b997138317e9a05e139f3d1cf406109d7bc257b56237c08584ddfc7f51bccb0a2b91e77aa0060c2bb",
+          "sha256": "049c200c226f9739972c75d7d44f16e8455db047aa6934b6ce9d9a2d894c956f",
+          "sha1": "4a57281ada08650301cf2b3dc2de2b8f9be87a8b",
+          "md5": "d7bf0fa2dcb8e0af86e848650c19aa4d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iosarm64/0.0.21/data-flint-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iosarm64/0.0.21/data-flint-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iosarm64/0.0.21/data-flint-iosarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iosarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iossimulatorarm64/0.0.21/data-flint-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iossimulatorarm64/0.0.21/data-flint-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iossimulatorarm64/0.0.21/data-flint-iossimulatorarm64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iossimulatorarm64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iosx64/0.0.21/data-flint-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iosx64/0.0.21/data-flint-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../data-flint-iosx64/0.0.21/data-flint-iosx64-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-iosx64",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../data-flint-jvm/0.0.21/data-flint-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-jvm",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../data-flint-jvm/0.0.21/data-flint-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-jvm",
+        "version": "0.0.21"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../data-flint-jvm/0.0.21/data-flint-jvm-0.0.21.module",
+        "group": "energy.chargee",
+        "module": "data-flint-jvm",
+        "version": "0.0.21"
+      }
+    }
+  ]
+}

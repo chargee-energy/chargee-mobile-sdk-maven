@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../utils-bluetooth/0.0.21/utils-bluetooth-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "utils-bluetooth",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.juul.kable",
+          "module": "kable-core",
+          "version": {
+            "requires": "0.43.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-bluetooth-iosX64Main.klib",
+          "url": "utils-bluetooth-iosx64-0.0.21.klib",
+          "size": 19501,
+          "sha512": "3ff1634156cc2fe26a5d1f1bee5ddfac3a801f7a802f8d173dbf97595e9affd8f3386dbc05b6576e04fca9a77f04f585949ceeaea248b7b679661c64f0e7ef8b",
+          "sha256": "b29bad401d28bcd0d5a3d0d9a22bb8f64b7192004a0b50b74e1cf3bfdf6cee9e",
+          "sha1": "204422ebf12bb337a1e5aa65ab14c051c0560482",
+          "md5": "1a1cd51570698ebc7f1371801f18e52e"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "utils-bluetooth-iosx64-sources.jar",
+          "url": "utils-bluetooth-iosx64-0.0.21-sources.jar",
+          "size": 6671,
+          "sha512": "3081d8ae3db4b158c55b1279dbbfba41aa11303bf24a2d6a0232f7177b760a47880dd53d1eb5f21500f70bfb892fae629acc8e0fc9112931dd8d2dc4f9374d1a",
+          "sha256": "a2f6340b373ff3ea35ad743d1a6920d0d336443c4128cd9aaaa3359bf2caf50c",
+          "sha1": "8c30b0351bfa4907ab6b19e26e0fafad25a847ab",
+          "md5": "52b90d7538173008b7da93b3af7c8a9c"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.juul.kable",
+          "module": "kable-core",
+          "version": {
+            "requires": "0.43.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-bluetooth-iosx64-metadata.jar",
+          "url": "utils-bluetooth-iosx64-0.0.21-metadata.jar",
+          "size": 2545,
+          "sha512": "085e997d79ad31962964a172f3dc0f736ad83fa0901bd72d7b7f2d0da84353154c80a97d39582167ece747313af5704d217fffd154572ca12835e03810268776",
+          "sha256": "fd79b3f058b88241a5eca15d2b42b3b3630241b573c563f2a54bc1e6e75f04c9",
+          "sha1": "23a5d1b637c0d898a2c401b473fafe1e7587efe3",
+          "md5": "70ee8a5b34a15efe25e1fcbe045ee6b1"
+        }
+      ]
+    }
+  ]
+}

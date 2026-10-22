@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../discovery-mdns/0.0.21/discovery-mdns-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "discovery-mdns",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-mdns-jvm.jar",
+          "url": "discovery-mdns-jvm-0.0.21.jar",
+          "size": 7056,
+          "sha512": "0bd04cb3f0519d05016316d7af4ffbf1bd80aa49eb0a82efa42785c629deef948c1fc9ebef89b0ca13e7f8be009b60810a9abb410b1db1abbe58510b0c87e033",
+          "sha256": "2f2b629261e87a0bde4fd7508a416f198f4b47270e85c342c0048d6614fdc431",
+          "sha1": "156a0e6040aae6b0339131f9f1d2940743ac716c",
+          "md5": "0c4c74654ed6a34742a687adff982907"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-mdns-jvm.jar",
+          "url": "discovery-mdns-jvm-0.0.21.jar",
+          "size": 7056,
+          "sha512": "0bd04cb3f0519d05016316d7af4ffbf1bd80aa49eb0a82efa42785c629deef948c1fc9ebef89b0ca13e7f8be009b60810a9abb410b1db1abbe58510b0c87e033",
+          "sha256": "2f2b629261e87a0bde4fd7508a416f198f4b47270e85c342c0048d6614fdc431",
+          "sha1": "156a0e6040aae6b0339131f9f1d2940743ac716c",
+          "md5": "0c4c74654ed6a34742a687adff982907"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "discovery-mdns-jvm-sources.jar",
+          "url": "discovery-mdns-jvm-0.0.21-sources.jar",
+          "size": 1352,
+          "sha512": "f6177a75dc0ceb94dc1d06617988de0edb92d44a8a480378f81d90055c5b3afd3a3bd81252c859282cceb39841ae123771854c2c63dbe37fd4cf6cbcc2c879a9",
+          "sha256": "e932aafca77220c9d178cd52012602446c3ab272868b106d490f493e113ea28a",
+          "sha1": "dd85530eb5cb3883bbb83f2e7d97bcce737937b6",
+          "md5": "89f39ea8b5c7041c82b596bdd645848c"
+        }
+      ]
+    }
+  ]
+}

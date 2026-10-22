@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-feature-flags/0.0.21/data-feature-flags-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "data-feature-flags",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-feature-flags-jvm.jar",
+          "url": "data-feature-flags-jvm-0.0.21.jar",
+          "size": 22799,
+          "sha512": "29b962bc25a5bc4da30d14bfc8fda977058052242ea9db70b2e68aceb07df809904cbd74097c55c08e46462839cf039ba0108caf1169ed0f39e57d3af366c51c",
+          "sha256": "732127c36ade03d72c019afe9e8d5cc468a656b9a21ec0ed25a1a913cda166a0",
+          "sha1": "978511064923554b60b7655ef94e94497aa44972",
+          "md5": "e698a007f3687101724225965695d57a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-annotations",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-feature-flags-jvm.jar",
+          "url": "data-feature-flags-jvm-0.0.21.jar",
+          "size": 22799,
+          "sha512": "29b962bc25a5bc4da30d14bfc8fda977058052242ea9db70b2e68aceb07df809904cbd74097c55c08e46462839cf039ba0108caf1169ed0f39e57d3af366c51c",
+          "sha256": "732127c36ade03d72c019afe9e8d5cc468a656b9a21ec0ed25a1a913cda166a0",
+          "sha1": "978511064923554b60b7655ef94e94497aa44972",
+          "md5": "e698a007f3687101724225965695d57a"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "data-feature-flags-jvm-sources.jar",
+          "url": "data-feature-flags-jvm-0.0.21-sources.jar",
+          "size": 4035,
+          "sha512": "b59b46cfa321c035bfec9ec20b341ef5a6a96d3a961bc333b662ce2e47b227b16392087cef6fb1048d56ca9df013663ce179a329e53af3e16a8c50dbcec0858a",
+          "sha256": "ba348ec6097c4d8b4cf250efb330fec678650387c23c1b1b82fd0e7fa292c7be",
+          "sha1": "7707e4064068b151a7088d8f938de20a5b3b731b",
+          "md5": "12cfb4a8d8f93917dc69de1349d03665"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../utils-concurrency/0.0.21/utils-concurrency-0.0.21.module",
+    "group": "energy.chargee",
+    "module": "utils-concurrency",
+    "version": "0.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-concurrency-iosSimulatorArm64Main.klib",
+          "url": "utils-concurrency-iossimulatorarm64-0.0.21.klib",
+          "size": 5786,
+          "sha512": "82da939529b69c6db4d6cbfbed6f08863e8d421cad9f01a3ad3fab398463f56e1543757c03fb745c91f996531841e2a43ffb0e6a781efb5613741649dea2623d",
+          "sha256": "efcf6ff7fb95cf6f1a75dbcf48189bf4fd428f24e5401d1b46ae322a1d92a4e4",
+          "sha1": "41c82d8002996e03b54523c21cff5c044b174c65",
+          "md5": "92197873a2b1850f6473b6bc25292de7"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "utils-concurrency-iossimulatorarm64-sources.jar",
+          "url": "utils-concurrency-iossimulatorarm64-0.0.21-sources.jar",
+          "size": 1814,
+          "sha512": "f46d5de761d64e839adfd37d16e9d258b494923afa1b5a7ed627f7beb153fa0b51e02ea55cea469247303010c9b68dc245286efd944850d11c81d3a509dd3de6",
+          "sha256": "de925c1fd0e37112e9869ce226874f995d0c3290a8e8cd72565d663082d80a0a",
+          "sha1": "7f14f9c77747b0cf744124f323f61d70a8cb7270",
+          "md5": "0eb4411446f1d6ec406cd02a24f5e99b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-concurrency-iossimulatorarm64-metadata.jar",
+          "url": "utils-concurrency-iossimulatorarm64-0.0.21-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
