@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../discovery-core/0.0.22/discovery-core-0.0.22.module",
+    "group": "energy.chargee",
+    "module": "discovery-core",
+    "version": "0.0.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-core-jvm.jar",
+          "url": "discovery-core-jvm-0.0.22.jar",
+          "size": 20703,
+          "sha512": "c39dfaea6a7a4d6baf53ce0ed469211f4f6f5098c3bdba6466af13197c94a92765b14160be3893c066ab0d3559ba51a6d5d5549037400e8e7fb92fefe1ef697a",
+          "sha256": "570605e5032b1480dae3c313e7ec7433ec3c13c4c2d8398f756243bf655b1b1d",
+          "sha1": "9ca71e3986a08a6c5537102599dd23eb65223393",
+          "md5": "33cb21d4d9b6fd73e0dcd3077d676f35"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-core-jvm.jar",
+          "url": "discovery-core-jvm-0.0.22.jar",
+          "size": 20703,
+          "sha512": "c39dfaea6a7a4d6baf53ce0ed469211f4f6f5098c3bdba6466af13197c94a92765b14160be3893c066ab0d3559ba51a6d5d5549037400e8e7fb92fefe1ef697a",
+          "sha256": "570605e5032b1480dae3c313e7ec7433ec3c13c4c2d8398f756243bf655b1b1d",
+          "sha1": "9ca71e3986a08a6c5537102599dd23eb65223393",
+          "md5": "33cb21d4d9b6fd73e0dcd3077d676f35"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "discovery-core-jvm-sources.jar",
+          "url": "discovery-core-jvm-0.0.22-sources.jar",
+          "size": 6254,
+          "sha512": "a34632e1b6ff4e473cf859e18388d126a2c0231652d92ddd15ffe0a4299e09b5ce6226c06b1fb9984bad18c97289024f5aa24273e18e10d8e83e965c9754108b",
+          "sha256": "20619d6fa6ee43de7da5391030e88b356bff799f52d4db0524769d7e60d30021",
+          "sha1": "274c026a1efbbd96c933b945afc6149f2411edb3",
+          "md5": "16282a6a2fa483de65256a14d09eb8c7"
+        }
+      ]
+    }
+  ]
+}

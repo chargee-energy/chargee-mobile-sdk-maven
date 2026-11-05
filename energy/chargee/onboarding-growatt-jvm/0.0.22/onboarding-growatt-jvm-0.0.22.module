@@ -1,0 +1,165 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-growatt/0.0.22/onboarding-growatt-0.0.22.module",
+    "group": "energy.chargee",
+    "module": "onboarding-growatt",
+    "version": "0.0.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-growatt-jvm.jar",
+          "url": "onboarding-growatt-jvm-0.0.22.jar",
+          "size": 79444,
+          "sha512": "64ff49ae0b1752e68296b1e68d51c6e9f27060e5fae4a1557c9e60665f24efc5416c5a7c69cde05131544ad220acf18ae905568877094ec7757e8de2b9a1d633",
+          "sha256": "fbaa590e9c78d3e25e5b95bcd53bdc9463cee680478290fcad302069b9de269c",
+          "sha1": "a262489ea6986cea8e3542dd07bdca4f650678f3",
+          "md5": "16dcd9e38ad56251185396f3b58fa443"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-growatt-jvm.jar",
+          "url": "onboarding-growatt-jvm-0.0.22.jar",
+          "size": 79444,
+          "sha512": "64ff49ae0b1752e68296b1e68d51c6e9f27060e5fae4a1557c9e60665f24efc5416c5a7c69cde05131544ad220acf18ae905568877094ec7757e8de2b9a1d633",
+          "sha256": "fbaa590e9c78d3e25e5b95bcd53bdc9463cee680478290fcad302069b9de269c",
+          "sha1": "a262489ea6986cea8e3542dd07bdca4f650678f3",
+          "md5": "16dcd9e38ad56251185396f3b58fa443"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-growatt-jvm-sources.jar",
+          "url": "onboarding-growatt-jvm-0.0.22-sources.jar",
+          "size": 15047,
+          "sha512": "c2fbf1043268731798002a667dbda6e4374cffecb2eb37c62fbac29f8745f833705ef9ef620ecabe6cadeeeefe883bc1f8103d16322f394c4ca9f29f9d201f97",
+          "sha256": "0f3e3e6cb08132b386191614c1bb5a4d2ade6f59e28d64a559bb6438bcf7a9a7",
+          "sha1": "346bfa3f56b4da7c5f6d9801fed9c5fb7d2f095f",
+          "md5": "3c435800089282fa39f673ce6a89843e"
+        }
+      ]
+    }
+  ]
+}

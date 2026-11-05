@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../discovery-port-scan/0.0.22/discovery-port-scan-0.0.22.module",
+    "group": "energy.chargee",
+    "module": "discovery-port-scan",
+    "version": "0.0.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-port-scan-jvm.jar",
+          "url": "discovery-port-scan-jvm-0.0.22.jar",
+          "size": 21283,
+          "sha512": "4bb242596fb17db1d5dd2f2d4a2535fab7e585277271b194cff6f552236adcb1756efeba13dc429a9e81978c346a6d069480ce9f6607b8aa035200124b25eebf",
+          "sha256": "7362ec2762df719d5faf0dfd55364647dc02c6fc8018bc5744003f5dea7b08b6",
+          "sha1": "30eb606992c054d0e1c7676dae5c3cf7a0261693",
+          "md5": "e4ee05bc4d0255e680138222627cda52"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-port-scan-jvm.jar",
+          "url": "discovery-port-scan-jvm-0.0.22.jar",
+          "size": 21283,
+          "sha512": "4bb242596fb17db1d5dd2f2d4a2535fab7e585277271b194cff6f552236adcb1756efeba13dc429a9e81978c346a6d069480ce9f6607b8aa035200124b25eebf",
+          "sha256": "7362ec2762df719d5faf0dfd55364647dc02c6fc8018bc5744003f5dea7b08b6",
+          "sha1": "30eb606992c054d0e1c7676dae5c3cf7a0261693",
+          "md5": "e4ee05bc4d0255e680138222627cda52"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "discovery-port-scan-jvm-sources.jar",
+          "url": "discovery-port-scan-jvm-0.0.22-sources.jar",
+          "size": 4887,
+          "sha512": "10e66daab3b31246c02e7301060a75d0b7de58719ee43c7eb6e7ec914899ac90abb85d80e759dee7659f48189446bb81c1955886029580c17a80db429e7532d0",
+          "sha256": "128f4d4cfa6d7ef721b166409f9909f37f67c6a1afa3cf58b003ec971a7ff25e",
+          "sha1": "5bc333f6cdb02bb03beaebcf1627fe76e71d7443",
+          "md5": "97c145ecdcfc486b9ed40dc12642b793"
+        }
+      ]
+    }
+  ]
+}
