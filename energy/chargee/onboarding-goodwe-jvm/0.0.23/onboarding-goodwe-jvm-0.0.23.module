@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-goodwe/0.0.23/onboarding-goodwe-0.0.23.module",
+    "group": "energy.chargee",
+    "module": "onboarding-goodwe",
+    "version": "0.0.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-goodwe-jvm.jar",
+          "url": "onboarding-goodwe-jvm-0.0.23.jar",
+          "size": 170779,
+          "sha512": "1019d399b96f841e14e9da9bd0340d31d0c3b82578f0adb99a9f5dc9e7412b12aca8073d1f88dbd48129e59fca0ab7331e31b2bb3ccfdb47912ca367d4228b28",
+          "sha256": "cf5d2172de76f3e1b9580da5c6a1ffa73359a3122c6c227e61f0405cc437d69c",
+          "sha1": "7556e770dad2107d26c8696cd87a1225bb7c965a",
+          "md5": "57ee127136ea71c94785cb19da9dffa5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-udp-broadcast",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-bluetooth",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-goodwe-jvm.jar",
+          "url": "onboarding-goodwe-jvm-0.0.23.jar",
+          "size": 170779,
+          "sha512": "1019d399b96f841e14e9da9bd0340d31d0c3b82578f0adb99a9f5dc9e7412b12aca8073d1f88dbd48129e59fca0ab7331e31b2bb3ccfdb47912ca367d4228b28",
+          "sha256": "cf5d2172de76f3e1b9580da5c6a1ffa73359a3122c6c227e61f0405cc437d69c",
+          "sha1": "7556e770dad2107d26c8696cd87a1225bb7c965a",
+          "md5": "57ee127136ea71c94785cb19da9dffa5"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-goodwe-jvm-sources.jar",
+          "url": "onboarding-goodwe-jvm-0.0.23-sources.jar",
+          "size": 29021,
+          "sha512": "4e54495848b8ae5cd59db36afaa01009834b056c0f3344f5964fd9e2eae8dca7fc5790c84005d80b7fc69bd2a05573a4fb5e64ec2db9cad4dc1a1f5671f71aed",
+          "sha256": "877a0045ca4f29309580ff2897dc32406bc6a65cb66a2520bddf30cbe013d320",
+          "sha1": "178e3892a7a9c1c26dae12b77762964546ed4f4c",
+          "md5": "e9c8c2d3c4236a7e84eeacd5145b9f8f"
+        }
+      ]
+    }
+  ]
+}

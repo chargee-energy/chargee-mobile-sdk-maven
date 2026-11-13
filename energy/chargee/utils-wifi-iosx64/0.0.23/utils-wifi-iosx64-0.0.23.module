@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../utils-wifi/0.0.23/utils-wifi-0.0.23.module",
+    "group": "energy.chargee",
+    "module": "utils-wifi",
+    "version": "0.0.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-wifi-iosX64Main.klib",
+          "url": "utils-wifi-iosx64-0.0.23.klib",
+          "size": 31671,
+          "sha512": "70857a746eaf52de754167846f5eba848c842680d711d467525da204df2b31b50e93516ca2b0cf987a98eb4e6f949aca845813fd2e17a71672be7a0ba9552ecf",
+          "sha256": "af22f8742025ca097b17db5baca65df46747a79dfeb8529ecba1b11d5d6832ab",
+          "sha1": "336bc8a44eeeccfdc4854acb347bacd72d45b9c0",
+          "md5": "072f8ac096586e5f89ae00ce67890241"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "utils-wifi-iosx64-sources.jar",
+          "url": "utils-wifi-iosx64-0.0.23-sources.jar",
+          "size": 9130,
+          "sha512": "474c8a1c3e164b1b82fd7eb1bc6618a75fb2ccb404d31141b93d4e3eb99497d5792c31b6b5ebae9cc667f7dee2c40b5e8286f4edd62beede8d7ef940e6ee41d3",
+          "sha256": "6b71e8269980fbc41aa986bd8487f33fd69c9fbc3f4fd1d73c89fa588e50f345",
+          "sha1": "d33ef2c4e98c2a1f277bc7a54021950bf1556391",
+          "md5": "e104a2c149d90d4fed57f4d3e7be5ee0"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-wifi-iosx64-metadata.jar",
+          "url": "utils-wifi-iosx64-0.0.23-metadata.jar",
+          "size": 5005,
+          "sha512": "7eb7ccfca83567c8587c985bc826466c65a19b291adc4fbcdaea4f92bcfe1da022c0b865c6b2a36e54423703961425fb36467414d9d8c1ee92da83bf649c5c51",
+          "sha256": "dd772897ba3e8ba949b9f2e8b704701c818ee4f43a0b573981c8be4a2425f5ea",
+          "sha1": "a60af00a94cb2e2452636ed70a4ef1ef9f2355d1",
+          "md5": "eb535f476ae3f0dcf8905c0b3fe3164a"
+        }
+      ]
+    }
+  ]
+}

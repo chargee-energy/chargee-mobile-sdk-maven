@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../discovery-mdns/0.0.23/discovery-mdns-0.0.23.module",
+    "group": "energy.chargee",
+    "module": "discovery-mdns",
+    "version": "0.0.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-mdns.aar",
+          "url": "discovery-mdns-android-0.0.23.aar",
+          "size": 21706,
+          "sha512": "66da709a7b69eddaadbcc13a54f2bd2297525b6b0485430eaa5388a325bbac8708e75561540ced3bfc501dccdcaec6951f68c13933376c8d9ffb07f931df8300",
+          "sha256": "39a42f364be567c1c9391f78b152e9041ae5af2e1c88725a173b9e7cf26b8f35",
+          "sha1": "c363b2bef849c3b7ccd510362c0194ea714655a0",
+          "md5": "6ae98225725c624dbc8cd49a1027413c"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-mdns.aar",
+          "url": "discovery-mdns-android-0.0.23.aar",
+          "size": 21706,
+          "sha512": "66da709a7b69eddaadbcc13a54f2bd2297525b6b0485430eaa5388a325bbac8708e75561540ced3bfc501dccdcaec6951f68c13933376c8d9ffb07f931df8300",
+          "sha256": "39a42f364be567c1c9391f78b152e9041ae5af2e1c88725a173b9e7cf26b8f35",
+          "sha1": "c363b2bef849c3b7ccd510362c0194ea714655a0",
+          "md5": "6ae98225725c624dbc8cd49a1027413c"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "discovery-mdns-android-sources.jar",
+          "url": "discovery-mdns-android-0.0.23-sources.jar",
+          "size": 3840,
+          "sha512": "efcd699ae3d72facadc10b281f5a8d089bd3d5b51db224c795c4791c5a932be6f9ee8bd2c003f7e0c495a7d072af8995b953b7a76cdd5caed9a504f20b4a9b3d",
+          "sha256": "fc6bcf4f465ead1792345c9e68e9f73e43d11788a79b10c6c4c3dd98d64e203a",
+          "sha1": "5f7b4870c91bd557ee51ca28565ef0d25b980495",
+          "md5": "7ffc7c9a2345153c23ed39c961c31148"
+        }
+      ]
+    }
+  ]
+}

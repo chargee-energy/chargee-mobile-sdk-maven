@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../discovery-mdns/0.0.23/discovery-mdns-0.0.23.module",
+    "group": "energy.chargee",
+    "module": "discovery-mdns",
+    "version": "0.0.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-mdns-iosSimulatorArm64Main.klib",
+          "url": "discovery-mdns-iossimulatorarm64-0.0.23.klib",
+          "size": 23257,
+          "sha512": "d9e288abdc1d9aae3c6492767b53b43cb334c23a030e7995ede8aee559165ec284ff475fbeba44d281dfd47b183650fa38c674750b17a5fee21d87ad8b566836",
+          "sha256": "8cf1f555f62bc7b49d1b085ff8a449af2d7b764057ef4504f7dffdf5c53fa8da",
+          "sha1": "8eb43bf4fac3ec0d8e547506f4cf96b9ddd6a596",
+          "md5": "174713dbf26ce7ba4ff2f8a35b4b19fb"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "discovery-mdns-iossimulatorarm64-sources.jar",
+          "url": "discovery-mdns-iossimulatorarm64-0.0.23-sources.jar",
+          "size": 4126,
+          "sha512": "28f75576804653431e32289c6ed72bd34ede62c98a52d83c26e7000f8a0273b09f2c32907626eae4625d940eb7d38378c1df8add3b46324c10181bde9c105d62",
+          "sha256": "427a4b124397afcfbbc2ca8a0533ae101f5f16b4d96d4f071792455084b472b4",
+          "sha1": "dd0a0c7d3a624b9c0b2bac89e153d6884bbca54a",
+          "md5": "0959907bd0e509d88519f4c95021b086"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-mdns-iossimulatorarm64-metadata.jar",
+          "url": "discovery-mdns-iossimulatorarm64-0.0.23-metadata.jar",
+          "size": 3083,
+          "sha512": "582390e53bc1ba32750d2fee24a30814fa5e9b2ef3caf52105d8e62ca81ff2aec07f1774df3cc0e289954871b5f01430ac1f98500b50326c02bf61c2b57e511c",
+          "sha256": "4a2ceddce949beaf00d7b8f0af6a00dc89a8482fbfc9f21cba9a05283f34af97",
+          "sha1": "e76bf746a8db2289e3d949d1dd4c2a0dfcd90e23",
+          "md5": "9dc3bb41743d84e58eb65fe99764cfd9"
+        }
+      ]
+    }
+  ]
+}
