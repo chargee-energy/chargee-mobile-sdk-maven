@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-sma/0.0.24/onboarding-sma-0.0.24.module",
+    "group": "energy.chargee",
+    "module": "onboarding-sma",
+    "version": "0.0.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-sma-jvm.jar",
+          "url": "onboarding-sma-jvm-0.0.24.jar",
+          "size": 216017,
+          "sha512": "6d96d57931d64ac933315b2bc2a30a6b74bd23b7cd684f98d6bc1cd54469c605061ce43c9b7ed502ff8503e0da817530617035f283435a9313bc4c3ea594c7f5",
+          "sha256": "65052190e70987fda2c8569788a541b6a17037bc3ed489895bac5f87f42e3e25",
+          "sha1": "f8eb59fc5bc0de098eaefc3a2f1f060ba6f087ad",
+          "md5": "1a8226c271f663c5720720f8c9dec64d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-udp-broadcast",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-sma-jvm.jar",
+          "url": "onboarding-sma-jvm-0.0.24.jar",
+          "size": 216017,
+          "sha512": "6d96d57931d64ac933315b2bc2a30a6b74bd23b7cd684f98d6bc1cd54469c605061ce43c9b7ed502ff8503e0da817530617035f283435a9313bc4c3ea594c7f5",
+          "sha256": "65052190e70987fda2c8569788a541b6a17037bc3ed489895bac5f87f42e3e25",
+          "sha1": "f8eb59fc5bc0de098eaefc3a2f1f060ba6f087ad",
+          "md5": "1a8226c271f663c5720720f8c9dec64d"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-sma-jvm-sources.jar",
+          "url": "onboarding-sma-jvm-0.0.24-sources.jar",
+          "size": 48168,
+          "sha512": "a57954ceddfae4d77f380e0dd734aae874cf2ca73560cafb78ced0714650307b3cf95e1c46c044ac16cce9ff376ef1e87827150da3b92f7f8544105aaf9a5937",
+          "sha256": "761f5d6fc09685f39f17541805e921766bc9a44134436d50a46f6f22337d40c8",
+          "sha1": "d64e08cbff29532213767eca49a9f40435d38a59",
+          "md5": "3cbe9726c73722c9ba1e2b352c3bc513"
+        }
+      ]
+    }
+  ]
+}

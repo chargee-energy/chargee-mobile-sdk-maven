@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../utils-wifi/0.0.24/utils-wifi-0.0.24.module",
+    "group": "energy.chargee",
+    "module": "utils-wifi",
+    "version": "0.0.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-wifi-iosSimulatorArm64Main.klib",
+          "url": "utils-wifi-iossimulatorarm64-0.0.24.klib",
+          "size": 31750,
+          "sha512": "f22e5366bf9cf673db53bfba112032670ddd0eddfa734723a725cbdda10bd069625abb9fbc16d904a6e7647981f61eb96ee8656ef2fd05d69505a7b44f9557ab",
+          "sha256": "f394ce7876eb5643f64507aa0be6d8d5ac9f24f00e5d19dad8274600458a5bd6",
+          "sha1": "206c9ed1841d6a6ede021d4a6f86a43411da403d",
+          "md5": "3685a28c3ef0258a5196310759f544d2"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "utils-wifi-iossimulatorarm64-sources.jar",
+          "url": "utils-wifi-iossimulatorarm64-0.0.24-sources.jar",
+          "size": 9130,
+          "sha512": "474c8a1c3e164b1b82fd7eb1bc6618a75fb2ccb404d31141b93d4e3eb99497d5792c31b6b5ebae9cc667f7dee2c40b5e8286f4edd62beede8d7ef940e6ee41d3",
+          "sha256": "6b71e8269980fbc41aa986bd8487f33fd69c9fbc3f4fd1d73c89fa588e50f345",
+          "sha1": "d33ef2c4e98c2a1f277bc7a54021950bf1556391",
+          "md5": "e104a2c149d90d4fed57f4d3e7be5ee0"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-wifi-iossimulatorarm64-metadata.jar",
+          "url": "utils-wifi-iossimulatorarm64-0.0.24-metadata.jar",
+          "size": 5005,
+          "sha512": "7eb7ccfca83567c8587c985bc826466c65a19b291adc4fbcdaea4f92bcfe1da022c0b865c6b2a36e54423703961425fb36467414d9d8c1ee92da83bf649c5c51",
+          "sha256": "dd772897ba3e8ba949b9f2e8b704701c818ee4f43a0b573981c8be4a2425f5ea",
+          "sha1": "a60af00a94cb2e2452636ed70a4ef1ef9f2355d1",
+          "md5": "eb535f476ae3f0dcf8905c0b3fe3164a"
+        }
+      ]
+    }
+  ]
+}

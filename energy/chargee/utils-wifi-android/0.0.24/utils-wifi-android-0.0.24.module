@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../utils-wifi/0.0.24/utils-wifi-0.0.24.module",
+    "group": "energy.chargee",
+    "module": "utils-wifi",
+    "version": "0.0.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-wifi.aar",
+          "url": "utils-wifi-android-0.0.24.aar",
+          "size": 28075,
+          "sha512": "095b893f0875b90ea441ff3da0ad31863a975f38bad422a2bf4d348288dd4b33c330ca7c8822cc342d306c3a13fbfa15add9bb85e87d9a4edca3a823efc728b9",
+          "sha256": "b2c82809b485627870493f3589771c1ec9a3fdb0b6506eb64509676fe5712429",
+          "sha1": "1cdfc251fb6fd4669f45b1a731b209ff8f6ea213",
+          "md5": "9027fcee3b63fcd0c817dc12bf263ce4"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-wifi.aar",
+          "url": "utils-wifi-android-0.0.24.aar",
+          "size": 28075,
+          "sha512": "095b893f0875b90ea441ff3da0ad31863a975f38bad422a2bf4d348288dd4b33c330ca7c8822cc342d306c3a13fbfa15add9bb85e87d9a4edca3a823efc728b9",
+          "sha256": "b2c82809b485627870493f3589771c1ec9a3fdb0b6506eb64509676fe5712429",
+          "sha1": "1cdfc251fb6fd4669f45b1a731b209ff8f6ea213",
+          "md5": "9027fcee3b63fcd0c817dc12bf263ce4"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "utils-wifi-android-sources.jar",
+          "url": "utils-wifi-android-0.0.24-sources.jar",
+          "size": 8972,
+          "sha512": "1dfe646144e1dda4c311646be64ff44a4013c2c6c0a19b28e7be070174745c08db554c81b9e0e8b2eace88af3947dc241e597233ab7ac0716ab4e0733e7cfe57",
+          "sha256": "515fa6fe020bfc3d73b640e860a80ccadc252e1e5ec28e46764e88f1644387a3",
+          "sha1": "a52d7023f0b81b9bead34baa6f005a3c8aa56677",
+          "md5": "7bbfa0aefd46fb1c8ea2fea50851e769"
+        }
+      ]
+    }
+  ]
+}

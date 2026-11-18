@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-peblar/0.0.24/onboarding-peblar-0.0.24.module",
+    "group": "energy.chargee",
+    "module": "onboarding-peblar",
+    "version": "0.0.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-peblar-jvm.jar",
+          "url": "onboarding-peblar-jvm-0.0.24.jar",
+          "size": 111707,
+          "sha512": "246c2f7420c6c5d33df03476fa2cefa98a50ffbb17cfa20ee07d5aaeb16ed1930e098451a3cf8e8c357eeb8309530208a74e21f6012e9071e776a3cc0fa10c79",
+          "sha256": "e1e217109b58065826cb0490ad25d1ce3b9c66dc9f6d84a8dda32d23889f680e",
+          "sha1": "cbefecc29dd3e099475e056a8d1eff7655e117af",
+          "md5": "0cc97a7dbb9eb83bb38a0688ab0e785e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.24"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-peblar-jvm.jar",
+          "url": "onboarding-peblar-jvm-0.0.24.jar",
+          "size": 111707,
+          "sha512": "246c2f7420c6c5d33df03476fa2cefa98a50ffbb17cfa20ee07d5aaeb16ed1930e098451a3cf8e8c357eeb8309530208a74e21f6012e9071e776a3cc0fa10c79",
+          "sha256": "e1e217109b58065826cb0490ad25d1ce3b9c66dc9f6d84a8dda32d23889f680e",
+          "sha1": "cbefecc29dd3e099475e056a8d1eff7655e117af",
+          "md5": "0cc97a7dbb9eb83bb38a0688ab0e785e"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-peblar-jvm-sources.jar",
+          "url": "onboarding-peblar-jvm-0.0.24-sources.jar",
+          "size": 13058,
+          "sha512": "6da0b2080efbc1de65de8a3b79119675f0c80efea27096cf9821cfe1063cdc1636d180b990cd0eaf95850d4fd827d08423767ef91d81f755b868b34d04ce9f8b",
+          "sha256": "00d5d6b418a3f0e08eff70ec5f6185a1c77b0d9215ee3ff3db52f03446e69f3d",
+          "sha1": "c619039ce2c2b9b0df81096e6be0efe8a9dcc847",
+          "md5": "231ddee437b664b13380fc0116821a47"
+        }
+      ]
+    }
+  ]
+}
