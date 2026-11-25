@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-chargee-device/0.0.25/onboarding-chargee-device-0.0.25.module",
+    "group": "energy.chargee",
+    "module": "onboarding-chargee-device",
+    "version": "0.0.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-feature-flags",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-sparky",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-flint",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-smart-meter",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-chargee-device-iosX64Main.klib",
+          "url": "onboarding-chargee-device-iosx64-0.0.25.klib",
+          "size": 108874,
+          "sha512": "9a2aaa23f54d7aef2b23fd8f326fefc42b14bbeabe1a010bcace8443d98309fd2408800ae64e831d3a177955ad3a075e0ca409b7bcf4d40e7d0ae89e75106278",
+          "sha256": "b8f26cc762cc5733c5ae8f62701ea8f0553a566122c1f7758bd990d2633e0cb9",
+          "sha1": "bdb9e30b9b99792377a6390c4a01534800801962",
+          "md5": "8e17d560b12a98d774b2d261eabd14d2"
+        },
+        {
+          "name": "onboarding-chargee-device-iosX64Cinterop-ESPProvisionWrapperMain.klib",
+          "url": "onboarding-chargee-device-iosx64-0.0.25-cinterop-ESPProvisionWrapper.klib",
+          "size": 8533,
+          "sha512": "55fd07b9a083ae7beab646ea5b9c4320a4e7e970b384eb58e7608ec6048ac8ba3e37865d68ea58f2986e3dbd10776f6af6c001a48516d05e00eb6e65e5fe2c0f",
+          "sha256": "7914c63a01f9be3ab2e986e05f3b07318116baab79992cb900fc456128c91ce0",
+          "sha1": "67762c5efa0909ec021cda17daf3fcde07991982",
+          "md5": "0e00d473eabb25aa4816020d67683609"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "onboarding-chargee-device-iosx64-sources.jar",
+          "url": "onboarding-chargee-device-iosx64-0.0.25-sources.jar",
+          "size": 26876,
+          "sha512": "641be4d786e809f1748cef4958f8edf7bb746e97fbebe9c0d687503a11244d27b7d0d922cde941c015e7bcc74fe931a619dab8bdff1f859d33f211c54854924b",
+          "sha256": "02ed24b6cd255bad46aca816aaa638550f2f4cc3a47626d9457c5736c1cda3ea",
+          "sha1": "3111dd1d88e177a007143d8844a7f9722d7201c0",
+          "md5": "301dbda3a13e2ad39bf4d833e2358274"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-feature-flags",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-sparky",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-flint",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-smart-meter",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-chargee-device-iosx64-metadata.jar",
+          "url": "onboarding-chargee-device-iosx64-0.0.25-metadata.jar",
+          "size": 23524,
+          "sha512": "c1eeea13efdb599c31b6226a38d01e8cceb6cce475b40ee221cb15702f9de6c4d4b23524a9d50bb5a25cd65ab74294e693c288681c5f888fedca7cdf0eaa5277",
+          "sha256": "c49b40eb73df2a5086e4b9341351ee9a0b1d2b813e34e05698975bb50bb8e384",
+          "sha1": "d09eca3a3289f5931ebe47eb639a45191374a441",
+          "md5": "c99aeb697fac8bb7fa26387d5a490db4"
+        }
+      ]
+    }
+  ]
+}

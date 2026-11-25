@@ -1,0 +1,361 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "discovery-port-scan",
+    "version": "0.0.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-port-scan-metadata.jar",
+          "url": "discovery-port-scan-0.0.25.jar",
+          "size": 4347,
+          "sha512": "f34ce4cb361c154706147e005edbfd1d3d6ab791a6a27ca791fbe532ebafe2268c64f31c56594884a974f2d251cdacbc5f48e7db44391f593c7bd54f4ab9b7fc",
+          "sha256": "3d63ea3e8c7843a733624050d549b72a3c978e7a2cc0b9275b5c9e95d7ad8b4f",
+          "sha1": "ccd435474dc0a18a020b7e98ee27869af7e01a4c",
+          "md5": "13a93981ff5e5034393a1cd47b09e9e4"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "discovery-port-scan-kotlin-sources.jar",
+          "url": "discovery-port-scan-0.0.25-sources.jar",
+          "size": 4934,
+          "sha512": "deb450aeec45e48521464b1b265ecb7f2b90494a8111eb28ddd2c82b78f0da7232f25599e041072596ca3bd54538a478084f298725de5030df7ad4386b4e082b",
+          "sha256": "0009b6881598733c6312fc471dcfc6b10bdf723ec9c087c23c59bc84653c6fd9",
+          "sha1": "6efc1ce53897605d6369a1a5cc3df11a77624943",
+          "md5": "af34e4beea98445a41fc391ff3e23d12"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-android/0.0.25/discovery-port-scan-android-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-android",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-android/0.0.25/discovery-port-scan-android-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-android",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-android/0.0.25/discovery-port-scan-android-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-android",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iosarm64/0.0.25/discovery-port-scan-iosarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iosarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iosarm64/0.0.25/discovery-port-scan-iosarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iosarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iosarm64/0.0.25/discovery-port-scan-iosarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iosarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iossimulatorarm64/0.0.25/discovery-port-scan-iossimulatorarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iossimulatorarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iossimulatorarm64/0.0.25/discovery-port-scan-iossimulatorarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iossimulatorarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iossimulatorarm64/0.0.25/discovery-port-scan-iossimulatorarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iossimulatorarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iosx64/0.0.25/discovery-port-scan-iosx64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iosx64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iosx64/0.0.25/discovery-port-scan-iosx64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iosx64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-iosx64/0.0.25/discovery-port-scan-iosx64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-iosx64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-jvm/0.0.25/discovery-port-scan-jvm-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-jvm",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-jvm/0.0.25/discovery-port-scan-jvm-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-jvm",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../discovery-port-scan-jvm/0.0.25/discovery-port-scan-jvm-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "discovery-port-scan-jvm",
+        "version": "0.0.25"
+      }
+    }
+  ]
+}

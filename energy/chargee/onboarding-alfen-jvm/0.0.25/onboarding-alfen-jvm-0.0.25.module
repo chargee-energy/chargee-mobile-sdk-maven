@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-alfen/0.0.25/onboarding-alfen-0.0.25.module",
+    "group": "energy.chargee",
+    "module": "onboarding-alfen",
+    "version": "0.0.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-alfen-jvm.jar",
+          "url": "onboarding-alfen-jvm-0.0.25.jar",
+          "size": 95124,
+          "sha512": "d6274e807c2e13497fce085f7dc0b0fb3637f333341946baeec55e3d28f77c1d651576ee92335c975e9e18b7026e85d9954215b9a64c923214067012f8fc345f",
+          "sha256": "a29cac1a1114a007b985aa63d3ac8e9b83580152a2bf17560f57439933e1864d",
+          "sha1": "f0b1bfb81f70fafe201ae7c67c32732f344ce0d6",
+          "md5": "609dc6bfaa1a2da0beb23b46805d7290"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-alfen-jvm.jar",
+          "url": "onboarding-alfen-jvm-0.0.25.jar",
+          "size": 95124,
+          "sha512": "d6274e807c2e13497fce085f7dc0b0fb3637f333341946baeec55e3d28f77c1d651576ee92335c975e9e18b7026e85d9954215b9a64c923214067012f8fc345f",
+          "sha256": "a29cac1a1114a007b985aa63d3ac8e9b83580152a2bf17560f57439933e1864d",
+          "sha1": "f0b1bfb81f70fafe201ae7c67c32732f344ce0d6",
+          "md5": "609dc6bfaa1a2da0beb23b46805d7290"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-alfen-jvm-sources.jar",
+          "url": "onboarding-alfen-jvm-0.0.25-sources.jar",
+          "size": 14045,
+          "sha512": "4dade4621b205f3a86412d679387bbfec2347fa21e32314ebd204ac1446c2f511d4e8e2f26933dc2ee0da826f64a5ac2b5989b9fb3bf20cb679c53c1d769e5ce",
+          "sha256": "ce9d72fde3c7467f0d8e0364f2eedb57eaa9071553d2a0ac582af4703c0a3020",
+          "sha1": "ff79e0406623e821b625f8500b9b5da929ca4245",
+          "md5": "89394c30d88db3f812523f8ae0c3e414"
+        }
+      ]
+    }
+  ]
+}

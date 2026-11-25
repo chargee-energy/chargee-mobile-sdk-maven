@@ -1,0 +1,346 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "onboarding-huawei",
+    "version": "0.0.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "sha2",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "hmac-sha2",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-huawei-metadata.jar",
+          "url": "onboarding-huawei-0.0.25.jar",
+          "size": 16725,
+          "sha512": "0e8d6cd617fc6ae0095caa28918e67f55a97730e2e2b234b274e0cd3e707df8cce05af6e22915833314a89a69854d5273cd850bcf4d2b6fba845fb8402d16cb0",
+          "sha256": "e910e0ae9bed858a9621c6def32970d41775077d7aaeeb08ba6c1af2ca5d54b2",
+          "sha1": "c39ec301d21ec6d9ff0fb917d26c010159748dcf",
+          "md5": "ccdcae576f932fbed67becc360416ca5"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "onboarding-huawei-kotlin-sources.jar",
+          "url": "onboarding-huawei-0.0.25-sources.jar",
+          "size": 26647,
+          "sha512": "fe189282a644a1acf222e713c3300e06a9ab9cdacb62087faed2595d72e0d8f23c3cd148aa6714fece73de2889b12239aee73a5700593c44d48d550e07b9cc74",
+          "sha256": "d807976c739443002375fa54aaceb5f7bdca97ef4b2f065a6dad59d9cc9d4402",
+          "sha1": "8cede1e8d2b34c1cc470747deaafb83b9078f1cf",
+          "md5": "ce51c661e60f5affe11fad4bc95718b0"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iosarm64/0.0.25/onboarding-huawei-iosarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iosarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iosarm64/0.0.25/onboarding-huawei-iosarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iosarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iosarm64/0.0.25/onboarding-huawei-iosarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iosarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iossimulatorarm64/0.0.25/onboarding-huawei-iossimulatorarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iossimulatorarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iossimulatorarm64/0.0.25/onboarding-huawei-iossimulatorarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iossimulatorarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iossimulatorarm64/0.0.25/onboarding-huawei-iossimulatorarm64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iossimulatorarm64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iosx64/0.0.25/onboarding-huawei-iosx64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iosx64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iosx64/0.0.25/onboarding-huawei-iosx64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iosx64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-iosx64/0.0.25/onboarding-huawei-iosx64-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-iosx64",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-jvm/0.0.25/onboarding-huawei-jvm-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-jvm",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-jvm/0.0.25/onboarding-huawei-jvm-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-jvm",
+        "version": "0.0.25"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-huawei-jvm/0.0.25/onboarding-huawei-jvm-0.0.25.module",
+        "group": "energy.chargee",
+        "module": "onboarding-huawei-jvm",
+        "version": "0.0.25"
+      }
+    }
+  ]
+}
