@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core-logging/0.0.26/core-logging-0.0.26.module",
+    "group": "energy.chargee",
+    "module": "core-logging",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logging-jvm.jar",
+          "url": "core-logging-jvm-0.0.26.jar",
+          "size": 4297,
+          "sha512": "367835768cc7a85a1857cc27cf241175c8ecbf89084731472ab5821297f36480cc4bb7ea5e06b8145333fad5002c88d0f493013fadd3f814745f89ad951020a5",
+          "sha256": "70914e4f882c025888e5ca71e9027d378a6d6f0dfadabaa27be26d4f08fb9b2a",
+          "sha1": "ddbf065a9da8d46a76c2ea79e07718bbc9898b2a",
+          "md5": "9f26919a7ff0379ff5a4376dc9c084aa"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-logging-jvm.jar",
+          "url": "core-logging-jvm-0.0.26.jar",
+          "size": 4297,
+          "sha512": "367835768cc7a85a1857cc27cf241175c8ecbf89084731472ab5821297f36480cc4bb7ea5e06b8145333fad5002c88d0f493013fadd3f814745f89ad951020a5",
+          "sha256": "70914e4f882c025888e5ca71e9027d378a6d6f0dfadabaa27be26d4f08fb9b2a",
+          "sha1": "ddbf065a9da8d46a76c2ea79e07718bbc9898b2a",
+          "md5": "9f26919a7ff0379ff5a4376dc9c084aa"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-logging-jvm-sources.jar",
+          "url": "core-logging-jvm-0.0.26-sources.jar",
+          "size": 3760,
+          "sha512": "96df45cca22b99ebed605b009841f6e9efbce94e591847d9ef58add12682dc37300008447694a00f563aff8ace6eef9abd30559f63994a3032f789618540866d",
+          "sha256": "33a67ac0d43d55a3e90e3ab9ddb9777d092c50d541729df909ca6c6c69609aec",
+          "sha1": "9b6b836f61d5f3031890c9537b4a0b11ddde4fd5",
+          "md5": "4f0ad3a7e1b2221a9ad8e245b0c0c718"
+        }
+      ]
+    }
+  ]
+}

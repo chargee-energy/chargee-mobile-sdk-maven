@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-chargee-device/0.0.26/onboarding-chargee-device-0.0.26.module",
+    "group": "energy.chargee",
+    "module": "onboarding-chargee-device",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-feature-flags",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-sparky",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-flint",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-smart-meter",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-chargee-device-iosSimulatorArm64Main.klib",
+          "url": "onboarding-chargee-device-iossimulatorarm64-0.0.26.klib",
+          "size": 108953,
+          "sha512": "21cc44cb07b4c477e92efc37082ad75245a08f3f637ccd4ec85fbc612727589e6a3d66e2149f76ecbf9a37282ec8111703b4667e76592e5170eefd8b013382c6",
+          "sha256": "49c8bf1f79cfeed6983ccef1e68b887f1097b3b51973579301b53b6bf013fce4",
+          "sha1": "0e5633378daa6999e923bce89e36cda4f723207d",
+          "md5": "f12ddb40d488dcb93321b7d6e9950655"
+        },
+        {
+          "name": "onboarding-chargee-device-iosSimulatorArm64Cinterop-ESPProvisionWrapperMain.klib",
+          "url": "onboarding-chargee-device-iossimulatorarm64-0.0.26-cinterop-ESPProvisionWrapper.klib",
+          "size": 8970,
+          "sha512": "057f85abde8d103295059a2380f1edce9f5b997b13be3cd5d510b4dd4b4798aa3b4e1fe97d70fbce6abd881696ca35ae9053dd423bc57175cc283fa09083eeca",
+          "sha256": "98319abe1a97f86ea39324628adcbee66c1ca767f75af8642e9445ebb8d92c3b",
+          "sha1": "87f9377f859049722dd4e58a779f5f93b4c15151",
+          "md5": "bb9e7760a03a4685b3d8f5ec2e74df85"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "onboarding-chargee-device-iossimulatorarm64-sources.jar",
+          "url": "onboarding-chargee-device-iossimulatorarm64-0.0.26-sources.jar",
+          "size": 26876,
+          "sha512": "641be4d786e809f1748cef4958f8edf7bb746e97fbebe9c0d687503a11244d27b7d0d922cde941c015e7bcc74fe931a619dab8bdff1f859d33f211c54854924b",
+          "sha256": "02ed24b6cd255bad46aca816aaa638550f2f4cc3a47626d9457c5736c1cda3ea",
+          "sha1": "3111dd1d88e177a007143d8844a7f9722d7201c0",
+          "md5": "301dbda3a13e2ad39bf4d833e2358274"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-concurrency",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-feature-flags",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-sparky",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-flint",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-smart-meter",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-chargee-device-iossimulatorarm64-metadata.jar",
+          "url": "onboarding-chargee-device-iossimulatorarm64-0.0.26-metadata.jar",
+          "size": 23524,
+          "sha512": "c1eeea13efdb599c31b6226a38d01e8cceb6cce475b40ee221cb15702f9de6c4d4b23524a9d50bb5a25cd65ab74294e693c288681c5f888fedca7cdf0eaa5277",
+          "sha256": "c49b40eb73df2a5086e4b9341351ee9a0b1d2b813e34e05698975bb50bb8e384",
+          "sha1": "d09eca3a3289f5931ebe47eb639a45191374a441",
+          "md5": "c99aeb697fac8bb7fa26387d5a490db4"
+        }
+      ]
+    }
+  ]
+}

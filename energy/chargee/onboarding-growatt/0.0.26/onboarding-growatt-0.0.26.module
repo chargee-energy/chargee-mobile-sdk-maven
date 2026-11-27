@@ -1,0 +1,325 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "onboarding-growatt",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-growatt-metadata.jar",
+          "url": "onboarding-growatt-0.0.26.jar",
+          "size": 12087,
+          "sha512": "262dabc0c0f1dd2cfbe74169b0f73114fde0eed1de4eaafc89acd6ebeaa6fc0ebbb666594b11f6e407beb16d189e9f87fa71f51773a7bc038bfde6d9d6296b7d",
+          "sha256": "4538af9281d8236fd45632f454a807ba17eadac27ed0b3f84b0b980eb7c1d8e2",
+          "sha1": "8bf38a79ab7f7d124be4d445fb1a2e976cc3abe2",
+          "md5": "70cac43d6e24204d7db152972fbd64c0"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "onboarding-growatt-kotlin-sources.jar",
+          "url": "onboarding-growatt-0.0.26-sources.jar",
+          "size": 15059,
+          "sha512": "ada0f5940331471a0a5fe1819e41bdde6a3f88b48cbdab9b92bbcb369f30e450c21766ca7b4f3fc3370aca54fb4683462842c869c98e1fd40b3a5314fc8cb811",
+          "sha256": "761d33b74ff1ef5098e3ea3cd9b88aff3e6f01fe5d7d07275a8a3dcf4e983c8b",
+          "sha1": "752197287d2944db83190c1c5b942ce473f96863",
+          "md5": "629e2c3168958b7b2c4b5664da54e480"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iosarm64/0.0.26/onboarding-growatt-iosarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iosarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iosarm64/0.0.26/onboarding-growatt-iosarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iosarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iosarm64/0.0.26/onboarding-growatt-iosarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iosarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iossimulatorarm64/0.0.26/onboarding-growatt-iossimulatorarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iossimulatorarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iossimulatorarm64/0.0.26/onboarding-growatt-iossimulatorarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iossimulatorarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iossimulatorarm64/0.0.26/onboarding-growatt-iossimulatorarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iossimulatorarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iosx64/0.0.26/onboarding-growatt-iosx64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iosx64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iosx64/0.0.26/onboarding-growatt-iosx64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iosx64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-iosx64/0.0.26/onboarding-growatt-iosx64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-iosx64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-jvm/0.0.26/onboarding-growatt-jvm-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-jvm",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-jvm/0.0.26/onboarding-growatt-jvm-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-jvm",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-growatt-jvm/0.0.26/onboarding-growatt-jvm-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-growatt-jvm",
+        "version": "0.0.26"
+      }
+    }
+  ]
+}

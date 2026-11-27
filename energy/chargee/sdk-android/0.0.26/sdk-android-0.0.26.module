@@ -1,0 +1,480 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../sdk/0.0.26/sdk-0.0.26.module",
+    "group": "energy.chargee",
+    "module": "sdk",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-logging",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-feature-flags",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-sparky",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-flint",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-smart-meter",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-correction-factor",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-live-electricity",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-energy",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-mdns",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-port-scan",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-udp-broadcast",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-chargee-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-solar-edge",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-goodwe",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-huawei",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-growatt",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-sma",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-peblar",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-alfen",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk.aar",
+          "url": "sdk-android-0.0.26.aar",
+          "size": 33571,
+          "sha512": "157a60ae36dc34e4ca31894750340d1d370b2f149ab41e92b6b80d878f6d2ca604aae17bafbbd621de2725f60ec2bb30015a09cea6d38b5577fbc604257b5a48",
+          "sha256": "34b6e34ee10aa86a9f9f3841332015cc7a535d69c181c9d1d768d348556fd98d",
+          "sha1": "b38acabe8c3aaeb2f08026c88651f69e581ec2eb",
+          "md5": "347754a568e27fe2bdabb5765d12fea2"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-logging",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-network",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-feature-flags",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-sparky",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-flint",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-smart-meter",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-correction-factor",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-live-electricity",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-energy",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-mdns",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-port-scan",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-udp-broadcast",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-chargee-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-solar-edge",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-goodwe",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-huawei",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-growatt",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-sma",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-peblar",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-alfen",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk.aar",
+          "url": "sdk-android-0.0.26.aar",
+          "size": 33571,
+          "sha512": "157a60ae36dc34e4ca31894750340d1d370b2f149ab41e92b6b80d878f6d2ca604aae17bafbbd621de2725f60ec2bb30015a09cea6d38b5577fbc604257b5a48",
+          "sha256": "34b6e34ee10aa86a9f9f3841332015cc7a535d69c181c9d1d768d348556fd98d",
+          "sha1": "b38acabe8c3aaeb2f08026c88651f69e581ec2eb",
+          "md5": "347754a568e27fe2bdabb5765d12fea2"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "sdk-android-sources.jar",
+          "url": "sdk-android-0.0.26-sources.jar",
+          "size": 7113,
+          "sha512": "7920dddefd4a1be0fb4ac8e3a86fa2b7a45b1d882fad5ca280f62e0743cc262a5e893ac5e3c4c90558681bded6517d433ed879c9d363be64b6c5e698d0c11746",
+          "sha256": "52dc3f95e9399148abda3b946226f23ebafd54cb777f76c69a3c1503a87b3354",
+          "sha1": "6d76ee117d8cceb3b311d860019c3044facd43f7",
+          "md5": "baf52a661dedc1f836dadb5bcf7f5237"
+        }
+      ]
+    }
+  ]
+}

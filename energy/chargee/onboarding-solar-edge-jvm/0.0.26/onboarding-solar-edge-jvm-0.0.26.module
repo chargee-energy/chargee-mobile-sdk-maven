@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-solar-edge/0.0.26/onboarding-solar-edge-0.0.26.module",
+    "group": "energy.chargee",
+    "module": "onboarding-solar-edge",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-solar-edge-jvm.jar",
+          "url": "onboarding-solar-edge-jvm-0.0.26.jar",
+          "size": 107496,
+          "sha512": "b03f308e418d63c586e3ddaaf4623450439e9fae794ee94ed8e88a9c5375cab34274c0279dff14d2f009e15670338e95b13f7ca04cf73b8b32abec3ac8baded7",
+          "sha256": "49eb08068e2e328c0cda774438202967a88fb2b061ff23cfc68018ab947e7720",
+          "sha1": "7f51d125d48acd76f8da3b1862b2c2af8f52d9bf",
+          "md5": "371d9ade87e3932b062866b0cf38134f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-solar-edge-wire",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-solar-edge-jvm.jar",
+          "url": "onboarding-solar-edge-jvm-0.0.26.jar",
+          "size": 107496,
+          "sha512": "b03f308e418d63c586e3ddaaf4623450439e9fae794ee94ed8e88a9c5375cab34274c0279dff14d2f009e15670338e95b13f7ca04cf73b8b32abec3ac8baded7",
+          "sha256": "49eb08068e2e328c0cda774438202967a88fb2b061ff23cfc68018ab947e7720",
+          "sha1": "7f51d125d48acd76f8da3b1862b2c2af8f52d9bf",
+          "md5": "371d9ade87e3932b062866b0cf38134f"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-solar-edge-jvm-sources.jar",
+          "url": "onboarding-solar-edge-jvm-0.0.26-sources.jar",
+          "size": 16632,
+          "sha512": "8f22acd3e133099af30a892ff5cf58f525a2f79a2123e80aacf9c28a581c84f316bf78df3b7b1dbe23026b3596737a65d431908212b1dde6d901d98e07e51339",
+          "sha256": "bd78d0d83d03bdcf71e91a7350bc8f41b536e6aa320ffd26ef0870f7a0639b1b",
+          "sha1": "f8a9d2f3d5b863b08f474f2ce8b9cf222c79a61f",
+          "md5": "c582dd839658a80f237165b43e04e60d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-core/0.0.26/onboarding-core-0.0.26.module",
+    "group": "energy.chargee",
+    "module": "onboarding-core",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-logging",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-core-jvm.jar",
+          "url": "onboarding-core-jvm-0.0.26.jar",
+          "size": 144870,
+          "sha512": "82ef51ab46b2cfc631351c71d8d50e7f4e39de5cc4a91a63ed82ea2b62efda3cc2e5b91a77e675e970c05e14f648211d639fbd79414fd4c7d0dc7b32ce8c31f9",
+          "sha256": "65bc3fdcf011ebf014627b07f83a2d2d128780ad6d23b2ebaa3afb696238c049",
+          "sha1": "3c1b9eb59b011334a4b1756be6876f615737c7a2",
+          "md5": "37374b3e8295533dcf9d61cd4047216f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "core-logging",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-core-jvm.jar",
+          "url": "onboarding-core-jvm-0.0.26.jar",
+          "size": 144870,
+          "sha512": "82ef51ab46b2cfc631351c71d8d50e7f4e39de5cc4a91a63ed82ea2b62efda3cc2e5b91a77e675e970c05e14f648211d639fbd79414fd4c7d0dc7b32ce8c31f9",
+          "sha256": "65bc3fdcf011ebf014627b07f83a2d2d128780ad6d23b2ebaa3afb696238c049",
+          "sha1": "3c1b9eb59b011334a4b1756be6876f615737c7a2",
+          "md5": "37374b3e8295533dcf9d61cd4047216f"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-core-jvm-sources.jar",
+          "url": "onboarding-core-jvm-0.0.26-sources.jar",
+          "size": 27302,
+          "sha512": "7a1ae5db3ee3a8548c80bb8cb4811598367e2462636cc0d8d28b8fea3189484afb61bc7564f06b4e48a93b9c8da21f45468aa15fa1b16165c35c63d639335a8e",
+          "sha256": "f8c3044af02137438fb0532ae6bf09e4adc00eb2555da3df1f59d314740ec2f9",
+          "sha1": "a3ed16c6738905d7635d2bf9a1457e3c0c4c5868",
+          "md5": "651a2507542951b8ca9e52350329ef33"
+        }
+      ]
+    }
+  ]
+}

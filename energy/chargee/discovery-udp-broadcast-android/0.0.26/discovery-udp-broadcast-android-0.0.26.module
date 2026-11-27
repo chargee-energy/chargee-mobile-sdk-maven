@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../discovery-udp-broadcast/0.0.26/discovery-udp-broadcast-0.0.26.module",
+    "group": "energy.chargee",
+    "module": "discovery-udp-broadcast",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-udp-broadcast.aar",
+          "url": "discovery-udp-broadcast-android-0.0.26.aar",
+          "size": 20225,
+          "sha512": "d1d7bca4155e030ade517cc22ddd65274b4f86682534d6355df586904db1163249bbe68a3b029dd927cb601c44b4e4ef39648a6b38b2b92afe6c2b0384266f2f",
+          "sha256": "82246fca940a462b3ad613baec29dad01440ae81ba03840a0a84b2e5309e6610",
+          "sha1": "9075819e8eaeccced27c886974f20499ce5e361a",
+          "md5": "da3b8643f214a9780b92b8805a8d4cc3"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "discovery-udp-broadcast.aar",
+          "url": "discovery-udp-broadcast-android-0.0.26.aar",
+          "size": 20225,
+          "sha512": "d1d7bca4155e030ade517cc22ddd65274b4f86682534d6355df586904db1163249bbe68a3b029dd927cb601c44b4e4ef39648a6b38b2b92afe6c2b0384266f2f",
+          "sha256": "82246fca940a462b3ad613baec29dad01440ae81ba03840a0a84b2e5309e6610",
+          "sha1": "9075819e8eaeccced27c886974f20499ce5e361a",
+          "md5": "da3b8643f214a9780b92b8805a8d4cc3"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "discovery-udp-broadcast-android-sources.jar",
+          "url": "discovery-udp-broadcast-android-0.0.26-sources.jar",
+          "size": 6127,
+          "sha512": "c8918e3d5b3a55dc7623574a62a56cb2c56e6f2e4f66a172c39d1c92992330071adbf81b0e74edcdcc53c9bc7c8957220ab7672c84d3a995cd38b5cd4e124efe",
+          "sha256": "70701d7f2458b36c20081ba45634f60a45dd2405cf807b5aeb63dd8d4ea9084a",
+          "sha1": "1a773d0c378485bf77e6f269afd2855769d264ce",
+          "md5": "53076f243635319f09e14e36a0043c46"
+        }
+      ]
+    }
+  ]
+}

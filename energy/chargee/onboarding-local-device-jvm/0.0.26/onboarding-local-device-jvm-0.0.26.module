@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../onboarding-local-device/0.0.26/onboarding-local-device-0.0.26.module",
+    "group": "energy.chargee",
+    "module": "onboarding-local-device",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-local-device-jvm.jar",
+          "url": "onboarding-local-device-jvm-0.0.26.jar",
+          "size": 105110,
+          "sha512": "194a53cb6fa30596194234367086f76f9b06faa00c569c07e29294b55df85daa99046443a7e9c4c3043dc865e8319f8ecb316af8a481a9791f81446e81b7b7f7",
+          "sha256": "de07a173c11099342a854fface5e8e13ffd5b40c6a23e1524b31eda6defc150b",
+          "sha1": "9ace6837d8bf5ec4de725c83f8c84490a9ee7444",
+          "md5": "958541b1bab0bebc3c0c5e00182c07e0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-local-device-jvm.jar",
+          "url": "onboarding-local-device-jvm-0.0.26.jar",
+          "size": 105110,
+          "sha512": "194a53cb6fa30596194234367086f76f9b06faa00c569c07e29294b55df85daa99046443a7e9c4c3043dc865e8319f8ecb316af8a481a9791f81446e81b7b7f7",
+          "sha256": "de07a173c11099342a854fface5e8e13ffd5b40c6a23e1524b31eda6defc150b",
+          "sha1": "9ace6837d8bf5ec4de725c83f8c84490a9ee7444",
+          "md5": "958541b1bab0bebc3c0c5e00182c07e0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "onboarding-local-device-jvm-sources.jar",
+          "url": "onboarding-local-device-jvm-0.0.26-sources.jar",
+          "size": 23039,
+          "sha512": "0f098f2f31754997521443e22ffd83d19caa708c6e405af84810eaac4725b148477a72b4ade8b08e0feef7908bce1b53368a1b4697ae87b4892f059963b5eb62",
+          "sha256": "e1638a355dcc34c04546328146a00c673aa3fea8b1ebb55093674daa8dc8b66d",
+          "sha1": "58fd7463b8f6e340afa5af59756f7e6adbda133e",
+          "md5": "c8f2ab045f04a4222baeb1fdf1db86f4"
+        }
+      ]
+    }
+  ]
+}

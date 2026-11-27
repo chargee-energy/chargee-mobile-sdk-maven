@@ -1,0 +1,346 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "energy.chargee",
+    "module": "onboarding-solar-edge",
+    "version": "0.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "utils-wifi",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "core-di",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-chargee-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "data-local-device",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "discovery-core",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "energy.chargee",
+          "module": "onboarding-solar-edge-wire",
+          "version": {
+            "requires": "0.0.26"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "co.touchlab.skie",
+          "module": "configuration-annotations",
+          "version": {
+            "requires": "0.10.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onboarding-solar-edge-metadata.jar",
+          "url": "onboarding-solar-edge-0.0.26.jar",
+          "size": 13289,
+          "sha512": "98682a4ed29b349d8ec31ab804b94df8235572c4d1b0fa8b521d41737d1d11829cbd9898fbb65e96f433c2ba6c53aa647b92f8a5e508258006bed3f5698f3bb2",
+          "sha256": "0a3d7ea9d30ee68a3afef17b20576502bd382c6c3b32f317953b22df70c7e0f7",
+          "sha1": "28e55152744a9a5792cf61ba8330dd7b049fb486",
+          "md5": "d89831bd8f0c868b41520a5142e30e39"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "onboarding-solar-edge-kotlin-sources.jar",
+          "url": "onboarding-solar-edge-0.0.26-sources.jar",
+          "size": 16632,
+          "sha512": "8f22acd3e133099af30a892ff5cf58f525a2f79a2123e80aacf9c28a581c84f316bf78df3b7b1dbe23026b3596737a65d431908212b1dde6d901d98e07e51339",
+          "sha256": "bd78d0d83d03bdcf71e91a7350bc8f41b536e6aa320ffd26ef0870f7a0639b1b",
+          "sha1": "f8a9d2f3d5b863b08f474f2ce8b9cf222c79a61f",
+          "md5": "c582dd839658a80f237165b43e04e60d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iosarm64/0.0.26/onboarding-solar-edge-iosarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iosarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iosarm64/0.0.26/onboarding-solar-edge-iosarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iosarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iosarm64/0.0.26/onboarding-solar-edge-iosarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iosarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iossimulatorarm64/0.0.26/onboarding-solar-edge-iossimulatorarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iossimulatorarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iossimulatorarm64/0.0.26/onboarding-solar-edge-iossimulatorarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iossimulatorarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iossimulatorarm64/0.0.26/onboarding-solar-edge-iossimulatorarm64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iossimulatorarm64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iosx64/0.0.26/onboarding-solar-edge-iosx64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iosx64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iosx64/0.0.26/onboarding-solar-edge-iosx64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iosx64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-iosx64/0.0.26/onboarding-solar-edge-iosx64-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-iosx64",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-jvm/0.0.26/onboarding-solar-edge-jvm-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-jvm",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-jvm/0.0.26/onboarding-solar-edge-jvm-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-jvm",
+        "version": "0.0.26"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../onboarding-solar-edge-jvm/0.0.26/onboarding-solar-edge-jvm-0.0.26.module",
+        "group": "energy.chargee",
+        "module": "onboarding-solar-edge-jvm",
+        "version": "0.0.26"
+      }
+    }
+  ]
+}
